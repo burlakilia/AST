@@ -1,0 +1,1 @@
+$('a[data-toggle=popover]').popover({trigger: 'hover focus click'});

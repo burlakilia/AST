@@ -1,0 +1,71 @@
+.social-top{
+	.social-links{
+		a{
+			background: transparent url("../img/ie-sprite.png") left -67px no-repeat;
+
+			&:hover{
+				background-color: transparent!important;
+				background-position: left -97px;
+			}
+			&.plus-link{
+				background-position: -150px -67px;
+			}
+			&.plus-link:hover{
+				background-position: -150px -97px;
+			}
+			&.f-link:hover{
+				background-position: left -97px;
+			}
+			&.g-link{
+				background-position: -90px -67px;
+			}
+			&.g-link:hover{
+				background-position: -90px -97px;
+			}
+			&.b-link{
+				background-position: -30px -67px;
+			}
+			&.b-link:hover{
+				background-position: -30px -97px;
+			}
+			&.odn-link{
+				background-position: -60px -67px;
+			}
+			&.odn-link:hover{
+				background-position: -60px -97px;
+			}
+			&.mail-link{
+				background-position: -120px -67px;
+			}
+			&.mail-link:hover{
+				background-position: -120px -97px;
+			}
+		}
+	}
+}
+.tabs{
+	section div{
+		min-height: 156px;
+	}
+}
+.steps{
+	ul li{
+		&.step-1,
+		&.step-2,
+		&.step-3{
+			z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('beforeEnd', '<div class=after></div>'))";
+		}
+		.after{
+			position: absolute;
+			width: 40px;
+			right: -20px;
+			top:0;
+			height: 80px;
+			background: transparent url("../img/ie-sprite.png") -180px top no-repeat;
+		}
+		&.step-1:before,
+		&.step-4:after{
+			display: none;
+		}
+	}
+}

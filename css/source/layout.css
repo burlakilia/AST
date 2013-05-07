@@ -1,0 +1,5 @@
+NameError: .box-shadow is undefined in C:\Users\a.kudriavtsev\!MY data\Dropbox\Storm foolder\AST\css\source\layout.less:19:1
+18 footer{
+19 	.box-shadow(~"0px 2px 2px 0px rgba(229, 229, 229, 1)");
+20 }
+
