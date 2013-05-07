@@ -4,6 +4,10 @@
 	a{
 		margin: 0;
 		padding: 0 0 0 22px;
+		text-align: left;
+		img{
+			*display: block;
+		}
 	};
 }
 .logo-element{
@@ -73,78 +77,88 @@
 			text-decoration: none;
 		}
 	}
-	.social-links{
-		padding: 20px 0 0;
-		a{
-			width: 30px;
-			height: 30px;
-			margin: 0 2px 0 0;
-			float: left;
-			background-color: #656565;
-			.border-radius(15px);
-			text-align: center;
-			.transition(background-color 0.2s ease-in, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear);
+}
+.social-links{
+	padding: 20px 0 0;
+	a{
+		width: 30px;
+		height: 30px;
+		margin: 0 2px 0 0;
+		float: left;
+		background-color: #656565;
+		.border-radius(15px);
+		text-align: center;
+		.transition(background-color 0.2s ease-in, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear);
 
-			&:hover{
-				text-decoration: none;
-				.box-shadow(0 0 2px 0px #656565);
-			}
-			&.plus-link:hover{
-				background-color: #ea6238;
-			}
-			&.f-link:hover{
-				background-color: #3b5998;
-			}
-			&.g-link:hover{
-				background-color:  #dd4b39;
-			}
-			&.b-link:hover{
-				background-color:  #45668e;
-			}
-			&.odn-link:hover{
-				background-color:  #f6861f;
-			}
-			&.mail-link:hover{
-				background-color:  #346ca4;
-			}
+		&:hover{
+			text-decoration: none;
+			.box-shadow(0 0 2px 0px #656565);
+		}
+		&.plus-link:hover{
+			background-color: #ea6238;
+		}
+		&.f-link:hover{
+			background-color: #3b5998;
+		}
+		&.g-link:hover{
+			background-color:  #dd4b39;
+		}
+		&.b-link:hover{
+			background-color:  #45668e;
+		}
+		&.odn-link:hover{
+			background-color:  #f6861f;
+		}
+		&.mail-link:hover{
+			background-color:  #346ca4;
+		}
+		&.tw-link:hover{
+			background-color: #00abf0;
+		}
 
-			&::after{
-				content: ' ';
-				width: 12px;
-				height: 20px;
-				background: transparent url("../img/sprite.png") top left no-repeat;
-				display: inline-block;
-				margin: 6px 0 0 0;
-			}
-			&.f-link::after{
-				margin-left: 2px;
-			}
-			&.b-link::after{
-				background-position: -12px top;
-				margin-left: 2px;
-			}
-			&.odn-link::after{
-				background-position: -24px top;
-				width: 10px;
-			}
-			&.g-link::after{
-				background-position: -34px top;
-				width: 20px;
-				margin: 5px 0 0 0;
-			}
-			&.mail-link::after{
-				background-position: -54px top;
-				width: 20px;
-				margin-left: 2px;
-			}
-			&.plus-link::after{
-				background-position: -74px top;
-				width: 20px;
-				margin: 5px 0 0 0;
-			}
+		&::after{
+			content: ' ';
+			width: 12px;
+			height: 20px;
+			background: transparent url("../img/sprite.png") top left no-repeat;
+			display: inline-block;
+			margin: 6px 0 0 0;
+		}
+		&.f-link::after{
+			margin-left: 2px;
+		}
+		&.b-link::after{
+			background-position: -12px top;
+			margin-left: 2px;
+		}
+		&.odn-link::after{
+			background-position: -24px top;
+			width: 10px;
+		}
+		&.g-link::after{
+			background-position: -34px top;
+			width: 20px;
+			margin: 5px 0 0 0;
+		}
+		&.mail-link::after{
+			background-position: -54px top;
+			width: 20px;
+			margin-left: 2px;
+		}
+		&.plus-link::after{
+			background-position: -74px top;
+			width: 20px;
+			margin: 5px 0 0 0;
+		}
+		&.tw-link::after{
+			background-position: -80px -20px;
+			width: 18px;
+			height: 16px;
+			margin-top: 7px;
 		}
 	}
 }
+
 .tabs{
 	section{
 		padding: 1px 0 0;

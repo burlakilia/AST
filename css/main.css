@@ -1005,6 +1005,12 @@ footer {
   .steps ul li p {
     padding-left: 58px!important;
   }
+  .steps ul li strong {
+    left: 10px!important;
+  }
+  .footer-cols .tel {
+    font-size: 27px!important;
+  }
   .container {
     width: auto;
     *zoom: 1;
@@ -1206,6 +1212,10 @@ footer {
 .logo a {
   margin: 0;
   padding: 0 0 0 22px;
+  text-align: left;
+}
+.logo a img {
+  *display: block;
 }
 .logo-element {
   position: absolute;
@@ -1275,10 +1285,10 @@ footer {
 .social-top .tel:hover {
   text-decoration: none;
 }
-.social-top .social-links {
+.social-links {
   padding: 20px 0 0;
 }
-.social-top .social-links a {
+.social-links a {
   width: 30px;
   height: 30px;
   margin: 0 2px 0 0;
@@ -1294,30 +1304,33 @@ footer {
   -ms-transition: background-color 0.2s ease-in, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
   transition: background-color 0.2s ease-in, box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
 }
-.social-top .social-links a:hover {
+.social-links a:hover {
   text-decoration: none;
   -webkit-box-shadow: 0 0 2px 0px #656565;
   box-shadow: 0 0 2px 0px #656565;
 }
-.social-top .social-links a.plus-link:hover {
+.social-links a.plus-link:hover {
   background-color: #ea6238;
 }
-.social-top .social-links a.f-link:hover {
+.social-links a.f-link:hover {
   background-color: #3b5998;
 }
-.social-top .social-links a.g-link:hover {
+.social-links a.g-link:hover {
   background-color: #dd4b39;
 }
-.social-top .social-links a.b-link:hover {
+.social-links a.b-link:hover {
   background-color: #45668e;
 }
-.social-top .social-links a.odn-link:hover {
+.social-links a.odn-link:hover {
   background-color: #f6861f;
 }
-.social-top .social-links a.mail-link:hover {
+.social-links a.mail-link:hover {
   background-color: #346ca4;
 }
-.social-top .social-links a::after {
+.social-links a.tw-link:hover {
+  background-color: #00abf0;
+}
+.social-links a::after {
   content: ' ';
   width: 12px;
   height: 20px;
@@ -1325,31 +1338,37 @@ footer {
   display: inline-block;
   margin: 6px 0 0 0;
 }
-.social-top .social-links a.f-link::after {
+.social-links a.f-link::after {
   margin-left: 2px;
 }
-.social-top .social-links a.b-link::after {
+.social-links a.b-link::after {
   background-position: -12px top;
   margin-left: 2px;
 }
-.social-top .social-links a.odn-link::after {
+.social-links a.odn-link::after {
   background-position: -24px top;
   width: 10px;
 }
-.social-top .social-links a.g-link::after {
+.social-links a.g-link::after {
   background-position: -34px top;
   width: 20px;
   margin: 5px 0 0 0;
 }
-.social-top .social-links a.mail-link::after {
+.social-links a.mail-link::after {
   background-position: -54px top;
   width: 20px;
   margin-left: 2px;
 }
-.social-top .social-links a.plus-link::after {
+.social-links a.plus-link::after {
   background-position: -74px top;
   width: 20px;
   margin: 5px 0 0 0;
+}
+.social-links a.tw-link::after {
+  background-position: -80px -20px;
+  width: 18px;
+  height: 16px;
+  margin-top: 7px;
 }
 .tabs section {
   padding: 1px 0 0;
@@ -1471,4 +1490,59 @@ footer {
 .step-3 .steps ul li.s-4 strong {
   color: #909090;
   background-position: left -20px;
+}
+.footer-cols {
+  border-top: 5px solid #d9d9d9;
+  padding-bottom: 66px;
+}
+.footer-cols .row {
+  padding-top: 20px;
+  overflow: hidden;
+}
+.footer-cols .faux-col {
+  border-left: 1px solid #bfedfe;
+  padding: 0 10px 1000px 20px;
+  margin: 0 0 -1000px -14px;
+}
+.footer-cols p {
+  margin: 0 0 16px;
+  line-height: 16px;
+}
+.footer-cols h1 {
+  margin: 0;
+  font-size: 16px;
+  color: #535353;
+}
+.footer-cols .col-1 {
+  margin-top: -9px;
+  padding-top: 41px;
+  background: transparent url("../img/sprite.png") 4px -60px no-repeat;
+}
+.footer-cols .col-1 p {
+  padding: 0 73px 0 4px;
+}
+.footer-cols .col-4 .faux-col {
+  border-left-color: #f5f5f5;
+  padding-left: 40px;
+}
+.footer-cols .col-3 h1,
+.footer-cols .col-3 a {
+  padding: 0 0 10px 0;
+  display: block;
+}
+.footer-cols .tel {
+  display: block;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  text-decoration: none;
+}
+.footer-cols .tel strong {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer-cols .tel:hover {
+  text-decoration: none;
 }

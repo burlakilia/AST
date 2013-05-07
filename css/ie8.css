@@ -1,60 +1,73 @@
-.social-top .social-links a {
+.social-links a {
   background: transparent url("../img/ie-sprite.png") left -67px no-repeat;
 }
-.social-top .social-links a:hover {
+.social-links a:hover {
   background-color: transparent!important;
   background-position: left -97px;
 }
-.social-top .social-links a.plus-link {
+.social-links a.plus-link {
   background-position: -150px -67px;
 }
-.social-top .social-links a.plus-link:hover {
+.social-links a.plus-link:hover {
   background-position: -150px -97px;
 }
-.social-top .social-links a.f-link:hover {
+.social-links a.f-link:hover {
   background-position: left -97px;
 }
-.social-top .social-links a.g-link {
+.social-links a.g-link {
   background-position: -90px -67px;
 }
-.social-top .social-links a.g-link:hover {
+.social-links a.g-link:hover {
   background-position: -90px -97px;
 }
-.social-top .social-links a.b-link {
+.social-links a.b-link {
   background-position: -30px -67px;
 }
-.social-top .social-links a.b-link:hover {
+.social-links a.b-link:hover {
   background-position: -30px -97px;
 }
-.social-top .social-links a.odn-link {
+.social-links a.odn-link {
   background-position: -60px -67px;
 }
-.social-top .social-links a.odn-link:hover {
+.social-links a.odn-link:hover {
   background-position: -60px -97px;
 }
-.social-top .social-links a.mail-link {
+.social-links a.mail-link {
   background-position: -120px -67px;
 }
-.social-top .social-links a.mail-link:hover {
+.social-links a.mail-link:hover {
   background-position: -120px -97px;
+}
+.social-links a.tw-link {
+  background-position: -67px top;
+}
+.social-links a.tw-link:hover {
+  background-position: -67px -30px;
 }
 .tabs section div {
   min-height: 156px;
 }
-.steps ul li.step-1,
-.steps ul li.step-2,
-.steps ul li.step-3 {
-  z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('beforeEnd', '<div class=after></div>'));
+.steps ul {
+  z-index: 0;
+}
+.steps ul li {
+  z-index: 0;
+}
+.steps ul li.s-1,
+.steps ul li.s-2,
+.steps ul li.s-3 {
+  *z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('beforeEnd', '<div class=after></div>'));
 }
 .steps ul li .after {
   position: absolute;
+  z-index: 10;
   width: 40px;
   right: -20px;
   top: 0;
   height: 80px;
   background: transparent url("../img/ie-sprite.png") -180px top no-repeat;
 }
-.steps ul li.step-1:before,
-.steps ul li.step-4:after {
+.steps ul li.s-1:before,
+.steps ul li.s-4:after {
   display: none;
 }
