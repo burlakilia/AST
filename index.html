@@ -15,7 +15,7 @@
 		<link href="css/ie8.css" rel="stylesheet" media="screen">
 		<![endif]-->
 	</head>
-	<body class="container step-1">
+	<body class="container step-2">
 	<header>
 		<div class="row">
 			<hgroup class="span2" >
@@ -49,7 +49,7 @@
 		<div class="row tabs">
 			<section class="span4">
 				<div>
-					<h1>Человек</h1>
+					<h1><a href="#" title="Человек">Человек</a></h1>
 					<ul>
 						<li><a href="#" title="страхование жизни">страхование жизни</a></li>
 						<li><a href="#" title="медицинское страхование">медицинское страхование</a></li>
@@ -69,7 +69,7 @@
 			</section>
 			<section class="span4">
 				<div>
-					<h1>Автомобиль</h1>
+					<h1><a href="#" title="Автомобиль">Автомобиль</a></h1>
 					<ul>
 						<li><a href="#" title="страхование от угона">страхование от угона</a></li>
 						<li><a href="#" title="страхование ущерба">страхование ущерба</a></li>
@@ -89,29 +89,182 @@
 		</section>
 	</header>
 	<article>
-		article
-		<div class="row" style="background: red">
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
-			<div class="span1" style="background: green">div</div>
+		<div class="estate">
+			<div class="row">
+				<div  class="span12 main-header">
+					<h1>Страхование квартиры</h1>
+					<label for="region" ><input autocomplete="off" type="text" id="region" placeholder="Москва" data-provide="typeahead" ></label>
+				</div>
+			</div>
+			<nav class="row main-tabs">
+				<a class="span3 active" href="#" title="подобрать и сравнить">подобрать и сравнить</a>
+				<a class="span3" href="#" title="выбрать программу из списка">выбрать программу из списка</a>
+			</nav>
+			<div class="row">
+				<section class="span9">
+					<div class="main-content">
+						<p class="loss-dfn f-r">Cумма ущерба</p>
+						<p class="loss-dfn">Объект страхования</p>
+						<form class="loss-table">
+							<!-- todo тут ниже темплейты надо удалить и вставить приведенный в этом комменте код для виджета
+							<div data-link="widgets/options" data-args="interior" class="loss-line odd">
+								<span class="label">внутренняя отделка <a href="#" class="popover-icon" data-toggle="popover" data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> и инженерное оборудование:</span>
+								<span class="slider"><div class="widget" data-link="widgets/slider"></div></span>
+								<span class="select"><select data-link="widgets/select"></select><span class="currency-ico"></span></span>
+							</div>
+							<div data-link="widgets/options" data-args="movables" class="loss-line">
+								<span class="label">движимое домашнее <a href="#" class="popover-icon" data-toggle="popover" data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> имущество:</span>
+								<span class="slider"><div class="widget" data-link="widgets/slider"></div></span>
+								<span class="select"><select data-link="widgets/select"></select><span class="currency-ico"></span></span>
+							</div>
+							<div data-link="widgets/options" data-args="liability" class="loss-line odd">
+								<span class="label">гражданская <a href="#" class="popover-icon" data-toggle="popover" data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> ответственность:</span>
+								<span class="slider"><div class="widget" data-link="widgets/slider"></div></span>
+								<span class="select"><select data-link="widgets/select"></select><span class="currency-ico"></span></span>
+							</div>
+							-->
+							<div data-link="widgets/options" data-args="interior" class="loss-line odd">
+								<span class="label">внутренняя отделка <a href="#" class="popover-icon" data-toggle="popover" data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> и инженерное оборудование:</span>
+								<span class="slider">
+									<div class="widget ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+										data-link="widgets/slider"
+										aria-disabled="false">
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 40%;"><span class="ui-slider-handle-count">10000000</span></a>
+									</div>
+									<div class="ui-slider-min-count">70 тыс</div>
+									<div class="ui-slider-max-count">200 тыс</div>
+								</span>
+								<label class="select">
+									<select data-link="widgets/select">
+										<option value="ea27d76b-901a-4f90-bc0d-42430016f30d">70000</option>
+										<option value="06dd06e6-d083-4ec1-a75d-78392aaa66e6">100000</option>
+										<option value="2628a269-fce2-4775-ba31-afa33a3d35b3">200000</option>
+										<option value="2b566f20-b1a6-462f-ae74-a3f6e19b46a2">240000</option>
+										<option value="c61f4f94-e5ad-495e-9cb1-29a7f38d45dd">300000</option>
+										<option value="75d42bb6-8b73-4f7b-90af-54ff54bc5f77">300000</option>
+										<option value="2e2893ca-7e5c-4ba8-b77a-c1030db982c0">400000</option>
+										<option value="79969ab7-80b2-45de-be6b-c6b9589068b1">500000</option>
+										<option value="79095273-1aab-4d72-9772-62dd48498332">500000</option>
+										<option value="b4301fef-6db5-42ad-bd48-7a1ff596438b">700000</option>
+										<option value="378a5748-5334-4c03-9fb2-e465b4c71ee9">800000</option>
+										<option value="cfeb8623-33ce-4a7f-9e4b-0675bc2c3377">900000</option>
+										<option value="96ee2e79-5cf4-4933-b4d4-1e7873200448">1000000</option>
+										<option value="45f23e26-9f80-4afd-b98d-e515c51610a4">1800000</option>
+										<option value="18cd3ef9-e7f6-4f9a-a185-a2ba628efddf">2000000</option>
+										<option value="7cdf3ca9-3f78-4138-abac-4bbdae0fc631">3600000</option>
+										<option value="572962c9-7f4a-4aa9-81c2-9694b2926e15">4500000</option>
+									</select>
+									<span class="currency-ico"></span>
+								</label>
+							</div>
+							<div data-link="widgets/options" data-args="movables" class="loss-line">
+								<span class="label">движимое домашнее <a href="#" class="popover-icon" data-toggle="popover" data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> имущество:</span>
+								<span class="slider">
+									<div class="widget ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+										data-link="widgets/slider"
+										aria-disabled="false">
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 100%;"><span class="ui-slider-handle-count right-stop">10000000</span></a>
+									</div>
+								</span>
+								<span class="select">
+									<select data-link="widgets/select">
+										<option value="ea27d76b-901a-4f90-bc0d-42430016f30d">40000</option>
+										<option value="c61f4f94-e5ad-495e-9cb1-29a7f38d45dd">100000</option>
+										<option value="06dd06e6-d083-4ec1-a75d-78392aaa66e6">100000</option>
+										<option value="79095273-1aab-4d72-9772-62dd48498332">100000</option>
+										<option value="2b566f20-b1a6-462f-ae74-a3f6e19b46a2">120000</option>
+										<option value="2628a269-fce2-4775-ba31-afa33a3d35b3">200000</option>
+										<option value="2e2893ca-7e5c-4ba8-b77a-c1030db982c0">200000</option>
+										<option value="75d42bb6-8b73-4f7b-90af-54ff54bc5f77">200000</option>
+										<option value="96ee2e79-5cf4-4933-b4d4-1e7873200448">200000</option>
+										<option value="79969ab7-80b2-45de-be6b-c6b9589068b1">200000</option>
+										<option value="18cd3ef9-e7f6-4f9a-a185-a2ba628efddf">300000</option>
+										<option value="378a5748-5334-4c03-9fb2-e465b4c71ee9">300000</option>
+										<option value="b4301fef-6db5-42ad-bd48-7a1ff596438b">300000</option>
+										<option value="cfeb8623-33ce-4a7f-9e4b-0675bc2c3377">500000</option>
+										<option value="45f23e26-9f80-4afd-b98d-e515c51610a4">1000000</option>
+										<option value="7cdf3ca9-3f78-4138-abac-4bbdae0fc631">2000000</option>
+										<option value="572962c9-7f4a-4aa9-81c2-9694b2926e15">2500000</option>
+									</select>
+									<span class="currency-ico"></span>
+								</span>
+							</div>
+							<div data-link="widgets/options" data-args="liability" class="loss-line odd">
+								<span class="label">гражданская <a href="#" class="popover-icon" data-toggle="popover" data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> ответственность:</span>
+								<span class="slider">
+									<div class="widget ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+										data-link="widgets/slider"
+										aria-disabled="false">
+										<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"><span class="ui-slider-handle-count left-stop">10000000</span></a>
+									</div>
+								</span>
+								<span class="select">
+									<select data-link="widgets/select">
+										<option value="ea27d76b-901a-4f90-bc0d-42430016f30d">20000</option>
+										<option value="2628a269-fce2-4775-ba31-afa33a3d35b3">50000</option>
+										<option value="2b566f20-b1a6-462f-ae74-a3f6e19b46a2">50000</option>
+										<option value="06dd06e6-d083-4ec1-a75d-78392aaa66e6">50000</option>
+										<option value="2e2893ca-7e5c-4ba8-b77a-c1030db982c0">80000</option>
+										<option value="79095273-1aab-4d72-9772-62dd48498332">100000</option>
+										<option value="75d42bb6-8b73-4f7b-90af-54ff54bc5f77">100000</option>
+										<option value="378a5748-5334-4c03-9fb2-e465b4c71ee9">100000</option>
+										<option value="c61f4f94-e5ad-495e-9cb1-29a7f38d45dd">100000</option>
+										<option value="96ee2e79-5cf4-4933-b4d4-1e7873200448">150000</option>
+										<option value="18cd3ef9-e7f6-4f9a-a185-a2ba628efddf">200000</option>
+										<option value="79969ab7-80b2-45de-be6b-c6b9589068b1">200000</option>
+										<option value="b4301fef-6db5-42ad-bd48-7a1ff596438b">300000</option>
+										<option value="cfeb8623-33ce-4a7f-9e4b-0675bc2c3377">500000</option>
+										<option value="45f23e26-9f80-4afd-b98d-e515c51610a4">1000000</option>
+										<option value="7cdf3ca9-3f78-4138-abac-4bbdae0fc631">2000000</option>
+										<option value="572962c9-7f4a-4aa9-81c2-9694b2926e15">2500000</option>
+									</select>
+									<span class="currency-ico"></span>
+								</span>
+							</div>
+						</form>
+					</div>
+				</section>
+				<aside class="span3 main-right">
+					<nav class="docs">
+						<h2>Правила <br/>страхования <br/>квартиры</h2>
+						<a href="#" title="Альянс">Альянс</a>
+						<a href="#" title="Россгосстрах">Россгосстрах</a>
+						<a href="#" title="ВТБ Страхование">ВТБ Страхование</a>
+						<a href="#" title="ВСК">ВСК</a>
+					</nav>
+					<h1>Почему АСТ<br/> Электронный полис?</h1>
+					<ul class="teaser">
+						<li>Выбор страховой компании</li>
+						<li>Онлайн оформление за&nbsp;5&nbsp;минут</li>
+						<li>Не требуется осмотр имущества</li>
+						<li>Возмещение в&nbsp;течение <nobr>2-х</nobr> недель</li>
+					</ul>
+				</aside>
+			</div>
+
+			<div class="row" style="background: red">
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+				<div class="span1" style="background: green">div</div>
+			</div>
+			<div class="bs-docs-example tooltip-demo">
+			  <ul class="bs-docs-tooltip-examples" style="margin: 0">
+				<li><a href="#" class="btn" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on top">Popover on top</a></li>
+				<li><a href="#" class="btn" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on right">Popover on right</a></li>
+				<li><a href="#" class="btn" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on bottom">Popover on bottom</a></li>
+				<li><a href="#" class="btn" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on left">Popover on left</a></li>
+			  </ul>
+			</div>
 		</div>
-		<div class="bs-docs-example tooltip-demo">
-          <ul class="bs-docs-tooltip-examples" style="margin: 0">
-            <li><a href="#" class="btn" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on top">Popover on top</a></li>
-            <li><a href="#" class="btn" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on right">Popover on right</a></li>
-            <li><a href="#" class="btn" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on bottom">Popover on bottom</a></li>
-            <li><a href="#" class="btn" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." title="Popover on left">Popover on left</a></li>
-          </ul>
-        </div>
 	</article>
 	<footer>
 		<div class="row">
