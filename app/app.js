@@ -1,0 +1,44 @@
+define(['exports', 'packages/jquery', 'async', 'bus'], function (exports, $, async, bus)  {
+
+    function trim(str) {
+        return str.trim();
+    }
+
+    function render(node, done) {
+        var link = node.getAttribute('data-link'),
+            args = node.getAttribute('data-args') || '';
+
+        args = args
+            ? args.split(',').map(trim)
+            : [];  // IE throws exception on apply without arguments arra
+
+
+        require([link], function(widget) {
+            args.unshift($(node));
+            widget.create.apply(this, args);
+
+            done(null, true);
+        });
+
+    }
+
+    function complete(err, res) {
+
+        if (err) {
+            throw err;
+        }
+
+        bus.emit('app:ready', res);
+    }
+
+    exports.init = function() {
+        window.$ = $;
+
+        require(['packages/bootstrap'], function() {
+            async.each($('[data-link]').toArray(), render, complete)
+        });
+
+
+    };
+
+});
