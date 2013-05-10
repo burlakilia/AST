@@ -3,7 +3,7 @@ define(function (require, exports) {
 
     require('mustache');
 
-    var template = require('text!/templates/products.html');
+    var template = require('text!/templates/autocomplete.html');
 
     exports.clear = function(container) {
         container.empty();
@@ -12,9 +12,13 @@ define(function (require, exports) {
     };
 
     exports.append = function (container, data) {
-        container.append(Mustache.to_html(template, { products: data }));
+        container.append(Mustache.to_html(template, data));
 
         return exports;
+    };
+
+    exports.render = function(data) {
+        return Mustache.to_html(template, data);
     };
 
 });
