@@ -109,6 +109,7 @@
 							cursor: default;
 							margin-left: -4px;
 							text-decoration: none;
+							outline: none;
 						}
 						.ui-slider-handle-count{
 							position: absolute;
@@ -201,42 +202,44 @@
 			}
 		}
 		.product-current{
-			margin-top: 50px;
-			border-top: 1px solid #d6d6d6;
-			padding: 1px 0 0 0;
-			.product-current-title{
-				margin:0;
-				border-top: 4px solid #e0e0e0;
-				padding: 20px 0 13px 0;
-				color: #444;
-				font-size: 24px;
-				line-height: 28px;
-				font-weight: normal;
-			}
-			.product-current-nav{
-				margin-bottom: 60px;
-				a{
-					display: block;
-					background-color: #e5f7ff;
-					border-left:1px solid #f2fbff;
-					border-right:1px solid #f2fbff;
-					.border-radius(7px);
-					padding: 13px 16px 13px 58px;
-					margin:0 20px 0 0;
-					float: left;
-					text-decoration: none;
-					font-size: 17px;
-					line-height: 17px;
-					&:before{
-						content: ' ';
+			.product-wrap{
+				margin-top: 50px;
+				border-top: 1px solid #d6d6d6;
+				padding: 1px 0 0 0;
+				.product-current-title{
+					margin:0;
+					border-top: 4px solid #e0e0e0;
+					padding: 20px 0 13px 0;
+					color: #444;
+					font-size: 24px;
+					line-height: 28px;
+					font-weight: normal;
+				}
+				.product-current-nav{
+					margin-bottom: 60px;
+					a{
 						display: block;
-						margin:0 0 -26px -44px;
-						width: 32px;
-						height: 24px;
-						background: transparent url("../img/sprite.png")  -101px top no-repeat;
-					}
-					&.credit:before{
-						background-position: -101px -25px;
+						background-color: #e5f7ff;
+						border-left:1px solid #f2fbff;
+						border-right:1px solid #f2fbff;
+						.border-radius(7px);
+						padding: 13px 16px 13px 58px;
+						margin:0 20px 0 0;
+						float: left;
+						text-decoration: none;
+						font-size: 17px;
+						line-height: 17px;
+						&:before{
+							content: ' ';
+							display: block;
+							margin:0 0 -26px -44px;
+							width: 32px;
+							height: 24px;
+							background: transparent url("../img/sprite.png")  -101px top no-repeat;
+						}
+						&.credit:before{
+							background-position: -101px -25px;
+						}
 					}
 				}
 			}
