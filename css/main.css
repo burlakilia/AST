@@ -1645,6 +1645,7 @@ article {
   cursor: default;
   margin-left: -4px;
   text-decoration: none;
+  outline: none;
 }
 .estate .main-content .loss-table .loss-line .slider .ui-slider .ui-slider-handle-count {
   position: absolute;
@@ -1732,12 +1733,12 @@ article {
   top: 11px;
   right: 14px;
 }
-.estate .main-content .product-current {
+.estate .main-content .product-current .product-wrap {
   margin-top: 50px;
   border-top: 1px solid #d6d6d6;
   padding: 1px 0 0 0;
 }
-.estate .main-content .product-current .product-current-title {
+.estate .main-content .product-current .product-wrap .product-current-title {
   margin: 0;
   border-top: 4px solid #e0e0e0;
   padding: 20px 0 13px 0;
@@ -1746,10 +1747,10 @@ article {
   line-height: 28px;
   font-weight: normal;
 }
-.estate .main-content .product-current .product-current-nav {
+.estate .main-content .product-current .product-wrap .product-current-nav {
   margin-bottom: 60px;
 }
-.estate .main-content .product-current .product-current-nav a {
+.estate .main-content .product-current .product-wrap .product-current-nav a {
   display: block;
   background-color: #e5f7ff;
   border-left: 1px solid #f2fbff;
@@ -1764,7 +1765,7 @@ article {
   font-size: 17px;
   line-height: 17px;
 }
-.estate .main-content .product-current .product-current-nav a:before {
+.estate .main-content .product-current .product-wrap .product-current-nav a:before {
   content: ' ';
   display: block;
   margin: 0 0 -26px -44px;
@@ -1772,7 +1773,7 @@ article {
   height: 24px;
   background: transparent url("../img/sprite.png") -101px top no-repeat;
 }
-.estate .main-content .product-current .product-current-nav a.credit:before {
+.estate .main-content .product-current .product-wrap .product-current-nav a.credit:before {
   background-position: -101px -25px;
 }
 .main-right {
