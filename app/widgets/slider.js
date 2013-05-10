@@ -14,7 +14,6 @@ define(function (require, exports) {
             var length = options.length,
                 selected = Math.floor(value * length / 100);
 
-
             return options[selected];
         }
 
@@ -34,9 +33,17 @@ define(function (require, exports) {
                 }
 
                 options = data;
+                label();
             });
 
         }
+
+        function label() {
+            var val = container.parent().parent().find('select option:selected').text();
+
+            container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
+        }
+
 
         function update(id) {
 
@@ -53,6 +60,7 @@ define(function (require, exports) {
             var selected = Math.floor(i * 100 / options.length);
 
             container.slider('value', selected);
+            label();
         }
 
         bus
@@ -63,6 +71,8 @@ define(function (require, exports) {
         container
             .on('slidestop', onchange)
             .slider();
+
+        container.on('update', label);
     };
 
 });

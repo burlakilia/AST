@@ -3,9 +3,9 @@ define(function (require, exports) {
 
     require('jquery-ui');
 
-    var $ = require('jquery'),
-        bus = require('bus'),
-        config = require('config');
+    var bus = require('bus'),
+        config = require('config'),
+        view = require('../views/autocomplete');
 
     var DEFAULT = "07f2f6aa-8837-4606-ae9e-66acc0678623";
 
@@ -14,14 +14,12 @@ define(function (require, exports) {
         require(['json!' + config.locations.url], function (data) {
 
             function onselect(e, data) {
-                setTimeout(function(){ container.val(data.item.label)}, 100);
+                setTimeout(function(){ container.val(data.item.label)}, 10);
                 bus.emit('region:changed', data.item.value);
             }
 
-            function onopen() {
-                var items = $('.ui-menu-item');
-
-                console.log(items.size());
+            function render( ul, item ) {
+                return $(view.render(item)).appendTo( ul );
             }
 
             function change() {
@@ -47,10 +45,12 @@ define(function (require, exports) {
                 .toggleClass('loading', false)
                 .autocomplete({
                     source: data,
-                    select: onselect,
-                    open: onopen
-                });
+                    select: onselect
+                })
 
+
+            // change select list template see  http://jqueryui.com/autocomplete/#custom-data
+            container.data('ui-autocomplete')._renderItem = render;
         });
 
     };

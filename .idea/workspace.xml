@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/estate.less" afterPath="$PROJECT_DIR$/css/source/modules/estate.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="insurance.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/index.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368205343895" ignored="false" />
+    <file path="/main.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1367387342258" ignored="false" />
+    <file path="/model.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366654257748" ignored="false" />
+    <file path="/query.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366653487547" ignored="false" />
+    <file path="/array.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366654446001" ignored="false" />
+    <file path="/Dummy.txt" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368208933451" ignored="false" />
+    <file path="/a.dummy" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368179694842" ignored="false" />
+    <file path="/*.regexp" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366657064071" ignored="false" />
+    <file path="/insurance_products.xml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366655044415" ignored="false" />
+    <file path="/options.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368185737082" ignored="false" />
+    <file path="/products.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368185518649" ignored="false" />
+    <file path="/regions.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368180278520" ignored="false" />
+    <file path="/companies.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1367336962274" ignored="false" />
+    <file path="/data.json" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366657064063" ignored="false" />
+    <file path="/interior-finish.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366829897996" ignored="false" />
+    <file path="/base.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366828755176" ignored="false" />
+    <file path="D:/fellow/web/node/logs/trace.20130424.log" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366826110780" ignored="false" />
+    <file path="/options.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366826613199" ignored="false" />
+    <file path="/form.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366828568874" ignored="false" />
+    <file path="/interior.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366828841501" ignored="false" />
+    <file path="/products.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368207663623" ignored="false" />
+    <file path="$PROJECT_DIR$/app/modules/sliders/base.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366907811331" ignored="false" />
+    <file path="/select.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368202317380" ignored="false" />
+    <file path="/main.css" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368184952766" ignored="false" />
+    <file path="/slider.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368206815477" ignored="false" />
+    <file path="D:/fellow/web/app/widgets/forms/slider/main.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366983793955" ignored="false" />
+    <file path="D:/fellow/web/app/widgets/search/header/main.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366981660608" ignored="false" />
+    <file path="D:/fellow/web/app/widgets/search/header/partials/countries.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366984645146" ignored="false" />
+    <file path="/countries.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368179101197" ignored="false" />
+    <file path="D:/fellow/web/l10n/templates/search/header.en-US.xml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366984645146" ignored="false" />
+    <file path="/header.en-US.xml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366981660608" ignored="false" />
+    <file path="/age-slider.cshtml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366982323988" ignored="false" />
+    <file path="D:/fellow/web/Views/Shared/forms/age-slider.cshtml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366983042196" ignored="false" />
+    <file path="D:/fellow/web/Views/Shared/member/header.cshtml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366984645146" ignored="false" />
+    <file path="/header.cshtml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366984645146" ignored="false" />
+    <file path="D:/fellow/web/app/widgets/search/labels/ages/main.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366984645146" ignored="false" />
+    <file path="D:/fellow/web/app/widgets/search/header/partials/ages.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366981660608" ignored="false" />
+    <file path="/ages.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366979610874" ignored="false" />
+    <file path="D:/fellow/web/app/widgets/search/header/partials/genders.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366981660608" ignored="false" />
+    <file path="/genders.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366980985082" ignored="false" />
+    <file path="/region.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1367336848907" ignored="false" />
+    <file path="/region.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1367336136106" ignored="false" />
+    <file path="/slider.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1367340966831" ignored="false" />
+    <file path="/app.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368203541807" ignored="false" />
+    <file path="/package.json" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368203301421" ignored="false" />
+    <file path="/countries.json" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368173787153" ignored="false" />
+    <file path="/config.json.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368179151696" ignored="false" />
+    <file path="/config.json" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368179234358" ignored="false" />
+    <file path="/config.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368183782135" ignored="false" />
+    <file path="/locations.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368208384267" ignored="false" />
+    <file path="/bus.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368184198518" ignored="false" />
+    <file path="$PROJECT_DIR$/css/source/blackjack/index.less" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368203192501" ignored="false" />
+    <file path="/popup.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204471013" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/less/bootstrap.less" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/examples/sticky-footer-navbar.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/javascript.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/less/tests/navbar-fixed-top.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/examples/sticky-footer.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/less/tests/navbar.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/components.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/customize.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/base-css.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/getting-started.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/less/responsive.less" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/scaffolding.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/extend.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/docs/index.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/less/tests/navbar-static-top.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/bootstrap/js/tests/index.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="$PROJECT_DIR$/pages/app/packages/json/json.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368204955786" ignored="false" />
+    <file path="/label.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368205947079" ignored="false" />
+    <file path="/autocomplete.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368208779305" ignored="false" />
+    <file path="/autocomplete.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368208356921" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="insurance" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="locations.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="74" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autocomplete.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="48" selection-start="47" selection-end="48" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locations.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locations.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="737" selection-start="737" selection-end="737" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="40" selection-start="1022" selection-end="1023" vertical-scroll-proportion="0.26258993">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/select.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="24" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autocomplete.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/autocomplete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="1" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="34" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insurance_products.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="57" selection-start="272" selection-end="308" vertical-scroll-proportion="-3.76">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="70" selection-start="84" selection-end="84" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="27" selection-start="252" selection-end="252" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/widgets/select.js" />
+        <option value="$PROJECT_DIR$/app/widgets/popup.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/widgets/label.js" />
+        <option value="$PROJECT_DIR$/app/widgets/slider.js" />
+        <option value="$PROJECT_DIR$/app/templates/products.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/templates/autocomplete.html" />
+        <option value="$PROJECT_DIR$/app/views/products.js" />
+        <option value="$PROJECT_DIR$/app/views/select.js" />
+        <option value="$PROJECT_DIR$/app/views/autocomplete.js" />
+        <option value="$PROJECT_DIR$/locations.json" />
+        <option value="$PROJECT_DIR$/templates/autocomplete.html" />
+        <option value="$PROJECT_DIR$/app/widgets/locations.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\insurance\app\templates" />
+      <recent name="D:\github\insurance\app\views" />
+      <recent name="D:\github\insurance\app\modules\views" />
+      <recent name="D:\github\insurance\app\modules" />
+      <recent name="D:\github\insurance\app\modules\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\insurance" />
+      <recent name="D:\github\insurance\pages" />
+      <recent name="D:\github\insurance\app\libs" />
+      <recent name="D:\github\insurance\pages\js" />
+      <recent name="D:\github\insurance\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" name="Default" comment="" />
+      <created>1366651535915</created>
+      <updated>1366651535915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24828677" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="181" selection-start="0" selection-end="242" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="144" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="0.040141676">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="53" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/My Documents/z_9556be59.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="57" selection-start="272" selection-end="308" vertical-scroll-proportion="-3.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="70" selection-start="84" selection-end="84" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="252" selection-end="252" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="113" selection-end="113" vertical-scroll-proportion="0.08028335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/autocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="1" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="737" selection-start="737" selection-end="737" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="48" selection-start="47" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="74" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="40" selection-start="1022" selection-end="1023" vertical-scroll-proportion="0.26258993">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
