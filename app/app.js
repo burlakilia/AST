@@ -1,4 +1,4 @@
-define(['exports', 'packages/jquery', 'async', 'bus'], function (exports, $, async, bus)  {
+define(['exports', 'jquery', 'async', 'bus'], function (exports, $, async, bus)  {
 
     function trim(str) {
         return str.trim();
@@ -34,7 +34,7 @@ define(['exports', 'packages/jquery', 'async', 'bus'], function (exports, $, asy
     exports.init = function() {
         window.$ = $;
 
-        require(['packages/bootstrap'], function() {
+        require(['bootstrap'], function() {
             async.each($('[data-link]').toArray(), render, complete)
         });
 
