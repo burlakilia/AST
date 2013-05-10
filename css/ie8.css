@@ -132,3 +132,17 @@
   background: #f2f2f4;
   *z-index: 90;
 }
+.estate .main-content .product-current .product-current-nav a {
+  *z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'));
+}
+.estate .main-content .product-current .product-current-nav a .before {
+  content: ' ';
+  display: block;
+  margin: 0 0 -26px -44px;
+  width: 32px;
+  height: 24px;
+  background: transparent url("../img/sprite.png") -101px top no-repeat;
+}
+.estate .main-content .product-current .product-current-nav a.credit .before {
+  background-position: -101px -25px;
+}

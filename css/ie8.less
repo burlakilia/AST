@@ -143,3 +143,17 @@
 		}
 	}
 }
+.estate .main-content .product-current .product-current-nav a{
+	*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'))";
+	.before {
+		content: ' ';
+		display: block;
+		margin: 0 0 -26px -44px;
+		width: 32px;
+		height: 24px;
+		background: transparent url("../img/sprite.png") -101px top no-repeat;
+	}
+	&.credit .before {
+		background-position: -101px -25px;
+	}
+}

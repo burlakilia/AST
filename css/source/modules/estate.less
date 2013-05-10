@@ -26,7 +26,7 @@
 					bottom: -7px;
 					left: 50%;
 					margin-left: -7px;
-					background: transparent url("../img/sprite.png")  -80px -36px no-repeat;
+					background: transparent url("../img/sprite.png")  -81px -37px no-repeat;
 				}
 				&:hover{
 					background-color: #83d5f8;
@@ -86,15 +86,6 @@
 						border: none;
 						text-align: center;
 					}
-					.currency-ico{
-						display: block;
-						position: absolute;
-						width: 9px;
-						height: 11px;
-						top: 18px;
-						right: 20px;
-						background: transparent url("../img/sprite.png")  -67px -68px no-repeat;
-					}
 				}
 				.slider{
 					right:187px;
@@ -111,7 +102,7 @@
 						.ui-slider-handle{
 							width: 9px;
 							height: 5px;
-							background: transparent url("../img/sprite.png")  -67px -62px no-repeat;
+							background: transparent url("../img/sprite.png")  -68px -62px no-repeat;
 							top: -6px;
 							position: absolute;
 							z-index: 2;
@@ -159,6 +150,94 @@
 				}
 				&:nth-child(odd){
 					background: #f2f2f4;
+				}
+			}
+		}
+		.currency-ico{
+			display: block;
+			position: absolute;
+			width: 9px;
+			height: 11px;
+			top: 18px;
+			right: 20px;
+			background: transparent url("../img/sprite.png")  -68px -68px no-repeat;
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		.total{
+			display: block;
+			height: 30px;
+			margin: 0;
+			padding: 10px 0 0 0;
+			border-bottom: 1px dotted #898989;
+			clear: both;
+			color: #444;
+			.total-text{
+				display: block;
+				float: left;
+				padding: 12px 20px 0 10px;
+				font-size: 24px;
+				background: #fff;
+				small{
+					display: block;
+					font-size: 12px;
+				}
+			}
+			.total-summ{
+				position: relative;
+				float: right;
+				display: block;
+				padding: 10px 44px 1px 20px;
+				font-size: 32px;
+				background: #fff;
+			}
+			.currency-ico{
+				width: 21px;
+				height: 24px;
+				background-position: -62px -86px;
+				top:11px;
+				right: 14px;
+			}
+		}
+		.product-current{
+			margin-top: 50px;
+			border-top: 1px solid #d6d6d6;
+			padding: 1px 0 0 0;
+			.product-current-title{
+				margin:0;
+				border-top: 4px solid #e0e0e0;
+				padding: 20px 0 13px 0;
+				color: #444;
+				font-size: 24px;
+				line-height: 28px;
+				font-weight: normal;
+			}
+			.product-current-nav{
+				margin-bottom: 60px;
+				a{
+					display: block;
+					background-color: #e5f7ff;
+					border-left:1px solid #f2fbff;
+					border-right:1px solid #f2fbff;
+					.border-radius(7px);
+					padding: 13px 16px 13px 58px;
+					margin:0 20px 0 0;
+					float: left;
+					text-decoration: none;
+					font-size: 17px;
+					line-height: 17px;
+					&:before{
+						content: ' ';
+						display: block;
+						margin:0 0 -26px -44px;
+						width: 32px;
+						height: 24px;
+						background: transparent url("../img/sprite.png")  -101px top no-repeat;
+					}
+					&.credit:before{
+						background-position: -101px -25px;
+					}
 				}
 			}
 		}
