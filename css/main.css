@@ -1490,21 +1490,18 @@ article {
 }
 .main-header label {
   display: block;
-  position: relative;
-  z-index: 10;
 }
-.main-header .typeahead.dropdown-menu {
-  display: block;
-  position: absolute;
-  top: 50px;
-  left: 0;
+.ui-helper-hidden-accessible {
+  display: none;
+}
+.ui-autocomplete {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  min-width: 400px;
+  width: 400px!important;
   z-index: 10;
 }
-.main-header .typeahead.dropdown-menu li {
+.ui-autocomplete li {
   display: block;
   background: #fff;
   border: 1px solid #eee;
@@ -1518,14 +1515,22 @@ article {
   -ms-transition: all 0.25s linear;
   transition: all 0.25s linear;
 }
-.main-header .typeahead.dropdown-menu li a,
-.main-header .typeahead.dropdown-menu li a:hover {
+.ui-autocomplete li a,
+.ui-autocomplete li a:hover {
   text-decoration: none;
 }
-.main-header .typeahead.dropdown-menu li.active {
+.ui-autocomplete li:hover,
+.ui-autocomplete li.active {
   background-color: #f7f7f7;
   text-shadow: 0px 1px 0px #eee;
   color: #00bbff;
+  cursor: pointer;
+}
+.ui-autocomplete li small {
+  display: block;
+  font-size: 14px;
+  color: #c7c7c7;
+  line-height: 14px;
 }
 .estate .main-tabs {
   padding: 0 0 20px 20px;
