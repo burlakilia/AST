@@ -1225,7 +1225,7 @@ footer {
   content: ' ';
   width: 12px;
   height: 20px;
-  background: transparent url("../img/sprite.png") top left no-repeat;
+  background: transparent url("/img/sprite.png") top left no-repeat;
   display: inline-block;
   margin: 6px 0 0 0;
 }
@@ -1315,7 +1315,7 @@ footer {
 .tabs section.active div {
   border: none;
   height: 192px;
-  background: transparent url("../img/active.png") 50% top no-repeat;
+  background: transparent url("/img/active.png") 50% top no-repeat;
   background-size: 100% 190px;
 }
 .tabs section.active div h1 {
@@ -1380,7 +1380,7 @@ footer {
   text-align: center;
   font-size: 21px;
   font-family: Arial, sans-serif;
-  background: transparent url("../img/sprite.png") -40px -20px no-repeat;
+  background: transparent url("/img/sprite.png") -40px -20px no-repeat;
   color: #19b9f8;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
@@ -1431,7 +1431,7 @@ footer {
   display: block;
   height: 25px;
   width: 71px;
-  background: transparent url("../img/sprite.png") 4px -60px no-repeat;
+  background: transparent url("/img/sprite.png") 4px -60px no-repeat;
   margin: -41px 0 16px 0;
 }
 .footer-cols .col-4 .faux-col {
@@ -1563,7 +1563,7 @@ article {
   bottom: -7px;
   left: 50%;
   margin-left: -7px;
-  background: transparent url("../img/sprite.png") -81px -37px no-repeat;
+  background: transparent url("/img/sprite.png") -81px -37px no-repeat;
 }
 .estate .main-tabs a.active:hover {
   background-color: #83d5f8;
@@ -1638,7 +1638,7 @@ article {
 .estate .main-content .loss-table .loss-line .slider .ui-slider .ui-slider-handle {
   width: 9px;
   height: 5px;
-  background: transparent url("../img/sprite.png") -68px -62px no-repeat;
+  background: transparent url("/img/sprite.png") -68px -62px no-repeat;
   top: -6px;
   position: absolute;
   z-index: 2;
@@ -1693,7 +1693,7 @@ article {
   height: 11px;
   top: 18px;
   right: 20px;
-  background: transparent url("../img/sprite.png") -68px -68px no-repeat;
+  background: transparent url("/img/sprite.png") -68px -68px no-repeat;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -1771,7 +1771,7 @@ article {
   margin: 0 0 -26px -44px;
   width: 32px;
   height: 24px;
-  background: transparent url("../img/sprite.png") -101px top no-repeat;
+  background: transparent url("/img/sprite.png") -101px top no-repeat;
 }
 .estate .main-content .product-current .product-wrap .product-current-nav a.credit:before {
   background-position: -101px -25px;
@@ -1798,7 +1798,7 @@ article {
   height: 32px;
   top: 0;
   left: -48px;
-  background: transparent url("../img/sprite.png") left -86px no-repeat;
+  background: transparent url("/img/sprite.png") left -86px no-repeat;
 }
 .main-right nav.docs h2 {
   color: #00b4ff;
@@ -1836,7 +1836,7 @@ article {
   display: block;
   width: 32px;
   height: 32px;
-  background: transparent url("../img/sprite.png") -29px -86px no-repeat;
+  background: transparent url("/img/sprite.png") -29px -86px no-repeat;
   margin: -6px 0 5px -8px;
 }
 .popover-icon {
@@ -1844,7 +1844,7 @@ article {
   margin: 0 6px 0;
   width: 16px;
   height: 19px;
-  background: transparent url("../img/sprite.png") -81px -45px no-repeat;
+  background: transparent url("/img/sprite.png") -81px -45px no-repeat;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;

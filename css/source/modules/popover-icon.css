@@ -3,7 +3,7 @@
   margin: 0 6px 0;
   width: 16px;
   height: 19px;
-  background: transparent url("../img/sprite.png") -81px -45px no-repeat;
+  background: transparent url("/img/sprite.png") -81px -45px no-repeat;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;

@@ -32,7 +32,7 @@
   display: block;
   height: 25px;
   width: 71px;
-  background: transparent url("../img/sprite.png") 4px -60px no-repeat;
+  background: transparent url("/img/sprite.png") 4px -60px no-repeat;
   margin: -41px 0 16px 0;
 }
 .footer-cols .col-4 .faux-col {
