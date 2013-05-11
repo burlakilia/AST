@@ -2,7 +2,8 @@ define(function (require, exports) {
     "use strict";
 
     var config = require('config'),
-        query = require('libs/query');
+        query = require('libs/query'),
+        options = require('./options');
 
     var data;
 
@@ -18,17 +19,34 @@ define(function (require, exports) {
 
             var ret = query('$..products[0].product[?id="' + id + '"]', data).map(function(obj){
 
-                var price = query('$..region..[?id="' + region + '"]', obj);
+                var price = query('$..region..[?id="' + region + '"]', obj),
+                    companies = query('$..companies', data)[0].company;
+
+                for (var i = 0; i < companies.length; i++) {
+
+                    if (companies[i].id === obj.company.id ) {
+
+                        return {
+                            id: obj.id,
+                            name: obj.name,
+                            company:  companies[i],
+                            price: price[0]
+                        };
+
+                    }
+
+                }
 
                 return {
                     id: obj.id,
                     name: obj.name,
-                    company: obj.company,
+                    company:  {},
                     price: price[0]
                 };
 
             });
 
+            ret.totalcost = '1000000';
             done(null, ret);
         }
 

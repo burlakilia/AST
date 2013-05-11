@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/estate.less" afterPath="$PROJECT_DIR$/css/source/modules/estate.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="D:\github\insurance\app\templates\products.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/products.html" afterPath="$PROJECT_DIR$/templates/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/products.js" afterPath="$PROJECT_DIR$/app/models/products.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/widgets/products.js" afterPath="$PROJECT_DIR$/app/widgets/products.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="insurance.iws" />
@@ -21,7 +20,7 @@
     <file path="/*.regexp" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366657064071" ignored="false" />
     <file path="/insurance_products.xml" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366655044415" ignored="false" />
     <file path="/options.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368185737082" ignored="false" />
-    <file path="/products.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368185518649" ignored="false" />
+    <file path="/products.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368210981881" ignored="false" />
     <file path="/regions.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368180278520" ignored="false" />
     <file path="/companies.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1367336962274" ignored="false" />
     <file path="/data.json" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366657064063" ignored="false" />
@@ -31,7 +30,7 @@
     <file path="/options.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366826613199" ignored="false" />
     <file path="/form.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366828568874" ignored="false" />
     <file path="/interior.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366828841501" ignored="false" />
-    <file path="/products.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368207663623" ignored="false" />
+    <file path="/products.html" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368209869361" ignored="false" />
     <file path="$PROJECT_DIR$/app/modules/sliders/base.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1366907811331" ignored="false" />
     <file path="/select.js" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368202317380" ignored="false" />
     <file path="/main.css" changelist="5efd44c9-6628-4c35-b78a-6fe8ab43f5e9" time="1368184952766" ignored="false" />
@@ -121,46 +120,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locations.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/locations.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="737" selection-start="737" selection-end="737" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="40" selection-start="1022" selection-end="1023" vertical-scroll-proportion="0.26258993">
+            <state line="31" column="191" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-12.346154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/select.js">
+      <file leaf-file-name="products.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autocomplete.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/autocomplete.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="1" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+            <state line="10" column="98" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.21013597">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products.js">
+        <entry file="file://$PROJECT_DIR$/app/widgets/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="34" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="25" selection-start="1229" selection-end="1238" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="options.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/options.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="48" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,25 +177,16 @@
       <file leaf-file-name="insurance_products.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="57" selection-start="272" selection-end="308" vertical-scroll-proportion="-3.76">
+            <state line="33" column="16" selection-start="1222" selection-end="1222" vertical-scroll-proportion="-22.44">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/products.html">
+      <file leaf-file-name="select.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/select.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="70" selection-start="84" selection-end="84" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="252" selection-end="252" vertical-scroll-proportion="-8.5">
+            <state line="2" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -211,9 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/widgets/select.js" />
-        <option value="$PROJECT_DIR$/app/widgets/popup.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/index.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/widgets/label.js" />
@@ -227,6 +223,9 @@
         <option value="$PROJECT_DIR$/locations.json" />
         <option value="$PROJECT_DIR$/templates/autocomplete.html" />
         <option value="$PROJECT_DIR$/app/widgets/locations.js" />
+        <option value="$PROJECT_DIR$/app/widgets/products.js" />
+        <option value="$PROJECT_DIR$/app/models/products.js" />
+        <option value="$PROJECT_DIR$/templates/products.html" />
       </list>
     </option>
   </component>
@@ -292,6 +291,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insurance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,53 +502,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="181" selection-start="0" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/widgets/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="144" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="0.040141676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/My Documents/z_9556be59.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="272" selection-end="308" vertical-scroll-proportion="-3.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="70" selection-start="84" selection-end="84" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="27" selection-start="252" selection-end="252" vertical-scroll-proportion="-8.5">
@@ -542,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="48" selection-start="47" selection-end="48" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="74" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
@@ -558,7 +553,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="1022" selection-end="1023" vertical-scroll-proportion="0.26258993">
+        <state line="31" column="191" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-12.346154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="48" selection-start="47" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="68" selection-end="68" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="16" selection-start="1222" selection-end="1222" vertical-scroll-proportion="-22.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="48" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="25" selection-start="1229" selection-end="1238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="98" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.21013597">
           <folding />
         </state>
       </provider>
