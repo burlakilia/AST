@@ -1,5 +1,5 @@
 {
-    "name": "AST Site",
+    "name": "ast-site",
     "version": "0.0.1",
 
     "dependencies": {
@@ -8,7 +8,7 @@
 
 	"jam": {
 		"baseUrl": "./app/",
-		"packageDir": "./app/packages/",
+        "packageDir": "./app/packages/",
 		"dependencies": {
             "jquery": "1.8.3",
             "jquery-ui": "*",

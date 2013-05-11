@@ -1,4 +1,16 @@
-define(['exports', 'jquery', 'async', 'bus'], function (exports, $, async, bus)  {
+define([
+    'exports',
+    'jquery',
+    'async',
+    'bus',
+    'models/options',
+    'models/products',
+    'widgets/select',
+    'widgets/slider',
+    'widgets/locations',
+    'widgets/options',
+    'widgets/products',
+    'widgets/popup'], function (exports, $, async, bus)  {
 
     function trim(str) {
         return str.trim();
@@ -32,6 +44,7 @@ define(['exports', 'jquery', 'async', 'bus'], function (exports, $, async, bus) 
     }
 
     exports.init = function() {
+        // need for non amd bootstrap version
         window.$ = $;
 
         require(['bootstrap'], function() {

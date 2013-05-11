@@ -10,7 +10,9 @@ define(function () {
 
         "locations": {
             "url": "/locations.json"
-        }
+        },
+
+        "debug": false
 
     }
 
