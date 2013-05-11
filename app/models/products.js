@@ -20,7 +20,12 @@ define(function (require, exports) {
             var ret = query('$..products[0].product[?id="' + id + '"]', data).map(function(obj){
 
                 var price = query('$..region..[?id="' + region + '"]', obj),
-                    companies = query('$..companies', data)[0].company;
+                    companies = query('$..companies', data)[0].company,
+                    totalcost = query('$..options..[?id="' + id + '"]..[?id="' + region + '"]', data).map(function(a) {
+                        return +a.value
+                    }).reduce(function(x, y) {
+                        return x + y;
+                    });
 
                 for (var i = 0; i < companies.length; i++) {
 
@@ -30,7 +35,8 @@ define(function (require, exports) {
                             id: obj.id,
                             name: obj.name,
                             company:  companies[i],
-                            price: price[0]
+                            price: price[0],
+                            totalcost: totalcost
                         };
 
                     }
@@ -41,7 +47,8 @@ define(function (require, exports) {
                     id: obj.id,
                     name: obj.name,
                     company:  {},
-                    price: price[0]
+                    price: price[0],
+                    totalcost: totalcost
                 };
 
             });
