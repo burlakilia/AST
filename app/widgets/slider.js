@@ -18,7 +18,7 @@ define(function (require, exports) {
         }
 
         function onchange(e, data) {
-            var value = data.value;
+            var value = data.value !== 100 ? data.value : 98;
 
             options = options;
             container.trigger('update',  [ nearest(value).id ]);
