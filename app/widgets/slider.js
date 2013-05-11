@@ -45,9 +45,13 @@ define(function (require, exports) {
         }
 
         function label() {
-            var val = container.parent().parent().find('select option:selected').text();
 
-            container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
+            setTimeout(function() {
+                var val = container.parent().parent().find('select option:selected').text();
+
+                container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
+            }, 0);
+
         }
 
         function extreme(min, max) {
