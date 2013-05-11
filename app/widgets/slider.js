@@ -27,12 +27,18 @@ define(function (require, exports) {
         function refresh(region) {
 
             model.select(id, region, function(err, data){
+                var min, max;
 
                 if (err) {
                     throw err;
                 }
 
+                min = data[0];
+                max = data[data.length - 1];
+
                 options = data;
+
+                extreme(min, max);
                 label();
             });
 
@@ -44,6 +50,18 @@ define(function (require, exports) {
             container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
         }
 
+        function extreme(min, max) {
+            var node = container.parent();
+
+            min = min.value / 1000;
+            min = min + ' тыс.';
+
+            max = max.value / 1000;
+            max = max + ' тыс.';
+
+            node.find('.ui-slider-min-count').text(min);
+            node.find('.ui-slider-max-count').text(max);
+        }
 
         function update(id) {
 

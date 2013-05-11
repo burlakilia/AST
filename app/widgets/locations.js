@@ -14,8 +14,7 @@ define(function (require, exports) {
         require(['json!' + config.locations.url], function (data) {
 
             function onselect(e, data) {
-                setTimeout(function(){ container.val(data.item.label)}, 10);
-                bus.emit('region:changed', data.item.value);
+                bus.emit('region:changed', data.item.id);
             }
 
             function render( ul, item ) {
@@ -27,14 +26,14 @@ define(function (require, exports) {
 
                 for (i = 0, len = data.length; i < len; i++) {
 
-                    if (data[i].value === DEFAULT) {
+                    if (data[i].id === DEFAULT) {
                         container.val(data[i].label)
                         break;
                     }
 
                 }
 
-                bus.emit('region:changed', data[i].value);
+                bus.emit('region:changed', data[i].id);
             }
 
             bus
