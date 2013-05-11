@@ -35,7 +35,9 @@ define(function (require, exports) {
                             id: obj.id,
                             name: obj.name,
                             company:  companies[i],
-                            price: price[0],
+                            price:  {
+                                value: price[0].value
+                            },
                             totalcost: totalcost
                         };
 
