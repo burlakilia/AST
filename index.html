@@ -18,6 +18,14 @@
     <![endif]-->
     <script src="./app/packages/require.config.js?@revision"></script>
     <script type="text/javascript">
+
+        if (typeof console === "undefined"){
+            console={};
+            console.log = function(){
+                return;
+            }
+        }
+
         var require = {
             baseUrl: './app',
             packages: jam.packages,
@@ -127,9 +135,9 @@
                 <div class="main-content">
                     <p class="loss-dfn f-r">Cумма ущерба</p>
                     <p class="loss-dfn">Объект страхования</p>
-                    <form class="loss-table">
+                    <form class="loss-table" data-link="widgets/options" >
 
-                        <div data-link="widgets/options"  class="loss-line odd">
+                        <div  class="loss-line odd">
                             <span class="label">внутренняя отделка <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> и инженерное оборудование:</span>
                             <span class="slider"><div class="widget" data-link="widgets/slider" data-args="interior"></div>
                                 <div class="ui-slider-min-count">70 тыс</div>
@@ -137,12 +145,12 @@
                             </span>
                             <span class="select"><select data-link="widgets/select" data-args="interior"></select><span class="currency-ico">р.</span></span>
                         </div>
-                        <div data-link="widgets/options" class="loss-line">
+                        <div class="loss-line">
                             <span class="label">движимое домашнее <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> имущество:</span>
                             <span class="slider"><div class="widget" data-link="widgets/slider"  data-args="movables"></div></span>
                             <span class="select"><select data-link="widgets/select"  data-args="movables"></select><span class="currency-ico">р.</span></span>
                         </div>
-                        <div data-link="widgets/options"class="loss-line odd">
+                        <div class="loss-line odd">
                             <span class="label">гражданская <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> ответственность:</span>
                             <span class="slider"><div class="widget" data-link="widgets/slider"  data-args="liability" ></div></span>
                             <span class="select"><select data-link="widgets/select"  data-args="liability" ></select><span class="currency-ico">р.</span></span>

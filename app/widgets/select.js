@@ -17,6 +17,8 @@ define(function (require, exports) {
 
                 view.clear(container);
                 view.append(container, data);
+
+                container.trigger('update',  [ data[0].id ]);
             });
 
             container.toggleClass('loading', false);

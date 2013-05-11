@@ -4,9 +4,16 @@ define(function (require, exports) {
     var bus = require('bus');
 
     exports.create = function (container) {
+        var handler;
 
         function emit(e, value) {
-            bus.emit('value:changed', value);
+
+            handler && clearTimeout(handler);
+
+            handler = setTimeout(function() {
+                bus.emit('value:changed', value);
+            }, 0);
+
         }
 
         function refresh() {
@@ -16,7 +23,6 @@ define(function (require, exports) {
         }
 
         container.on('update', 'select, .slider .widget', emit);
-
 
         bus
             .on('app:ready', refresh)

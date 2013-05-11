@@ -2,32 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60606a50-0a50-4e43-a84b-1d34892105f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/article.css" afterPath="$PROJECT_DIR$/css/source/article.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/autocomplete.html" afterPath="$PROJECT_DIR$/templates/autocomplete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/estate.less" afterPath="$PROJECT_DIR$/css/source/modules/estate.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/footer.css" afterPath="$PROJECT_DIR$/css/source/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/footer.less" afterPath="$PROJECT_DIR$/css/source/footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/header.less" afterPath="$PROJECT_DIR$/css/source/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ie.css" afterPath="$PROJECT_DIR$/css/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ie.less" afterPath="$PROJECT_DIR$/css/ie.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ie8.css" afterPath="$PROJECT_DIR$/css/ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ie8.less" afterPath="$PROJECT_DIR$/css/ie8.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/main-header.css" afterPath="$PROJECT_DIR$/css/source/modules/main-header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/main-header.less" afterPath="$PROJECT_DIR$/css/source/modules/main-header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/main-right.less" afterPath="$PROJECT_DIR$/css/source/modules/main-right.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/popover-icon.css" afterPath="$PROJECT_DIR$/css/source/modules/popover-icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/modules/popover-icon.less" afterPath="$PROJECT_DIR$/css/source/modules/popover-icon.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/products.html" afterPath="$PROJECT_DIR$/templates/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/products.js" afterPath="$PROJECT_DIR$/app/models/products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/widgets/options.js" afterPath="$PROJECT_DIR$/app/widgets/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/widgets/select.js" afterPath="$PROJECT_DIR$/app/widgets/select.js" />
     </list>
     <list id="066a2d89-a40f-418a-863c-d527224e2ac1" name="trash" comment="" />
     <ignored path="AST.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
-    <file path="/index.html" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368208330154" ignored="false" />
+    <file path="/index.html" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368253025600" ignored="false" />
     <file path="/mainless.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1366897410861" ignored="false" />
     <file path="/asd.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1366896185364" ignored="false" />
     <file path="/a.php" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1366897819484" ignored="false" />
@@ -41,7 +24,7 @@
     <file path="/bootstrap.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1367256572316" ignored="false" />
     <file path="/layout.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368095579357" ignored="false" />
     <file path="/gradient.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1366914736574" ignored="false" />
-    <file path="/a.dummy" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368208839527" ignored="false" />
+    <file path="/a.dummy" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368253234285" ignored="false" />
     <file path="/header.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368023466978" ignored="false" />
     <file path="/ie.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368114421202" ignored="false" />
     <file path="/ie8.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368199755397" ignored="false" />
@@ -56,6 +39,8 @@
     <file path="/popover-icon.less" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368199130553" ignored="false" />
     <file path="/products.html" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368251558847" ignored="false" />
     <file path="/products.js" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368252222676" ignored="false" />
+    <file path="/select.js" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368252770400" ignored="false" />
+    <file path="/options.js" changelist="60606a50-0a50-4e43-a84b-1d34892105f3" time="1368253128209" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +60,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="locations.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="51" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="15" column="43" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bus.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="16" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,52 +81,52 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="55" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-15.461538">
+            <state line="136" column="74" selection-start="5771" selection-end="5771" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autocomplete.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
+      <file leaf-file-name="locations.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="194" selection-start="69" selection-end="69" vertical-scroll-proportion="-0.0">
+            <state line="26" column="46" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/products.html">
+      <file leaf-file-name="options.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/widgets/options.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="102" selection-start="1664" selection-end="1664" vertical-scroll-proportion="-2.8701298">
+            <state line="17" column="52" selection-start="361" selection-end="361" vertical-scroll-proportion="0.33028573">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="options.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/options.js">
+      <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/select.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="102" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+            <state line="42" column="20" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insurance_products.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
+      <file leaf-file-name="slider.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="291" column="59" selection-start="13477" selection-end="13513" vertical-scroll-proportion="-11.16">
+            <state line="53" column="39" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/products.js">
+      <file leaf-file-name="products.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/products.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="50" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.5245714">
+            <state line="22" column="24" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,13 +151,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/source/layout.less" />
-        <option value="$PROJECT_DIR$/css/source/article.less" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/source/bootstrap.less" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/app/templates/products.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/ie.less" />
         <option value="$PROJECT_DIR$/css/ie8.less" />
         <option value="$PROJECT_DIR$/css/source/footer.less" />
@@ -173,6 +164,9 @@
         <option value="$PROJECT_DIR$/css/source/modules/popover-icon.less" />
         <option value="$PROJECT_DIR$/templates/products.html" />
         <option value="$PROJECT_DIR$/app/models/products.js" />
+        <option value="$PROJECT_DIR$/app/widgets/select.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/widgets/options.js" />
       </list>
     </option>
   </component>
@@ -270,24 +264,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="widgets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insurance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="insurance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,13 +375,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18569905" sideWeight="0.6730585" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.42033714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4610459" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44963542" sideWeight="0.22051774" order="10" side_tool="true" content_ui="tabs" x="154" y="145" width="1766" height="909" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.14034152" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14140876" sideWeight="0.67114097" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14140876" sideWeight="0.67114097" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55684006" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694152" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -418,7 +395,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46124762" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43568125" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -494,48 +470,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/source/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="629" column="1" selection-start="10888" selection-end="10889" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/source/footer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="41" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/source/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="45" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/source/modules/estate.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="57" selection-start="4810" selection-end="4810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/source/modules/main-right.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="45" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/source/modules/popover-icon.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/source/blackjack/border-radius.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0">
@@ -550,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="194" selection-start="69" selection-end="69" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/autocomplete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="19" selection-start="209" selection-end="209" vertical-scroll-proportion="0.15542857">
@@ -566,42 +493,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="102" selection-start="1664" selection-end="1664" vertical-scroll-proportion="-2.8701298">
+        <state line="13" column="102" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.28152865">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/My Documents/insurance_products.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="59" selection-start="13477" selection-end="13513" vertical-scroll-proportion="-11.16">
+        <state line="291" column="59" selection-start="13477" selection-end="13513" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/options.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="102" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-15.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+        <state line="17" column="102" selection-start="352" selection-end="352" vertical-scroll-proportion="0.33028573">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/products.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="50" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.5245714">
+        <state line="36" column="24" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.42742857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/autocomplete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="39" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/locations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="46" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="74" selection-start="5771" selection-end="5771" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="20" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="52" selection-start="361" selection-end="361" vertical-scroll-proportion="0.33028573">
           <folding />
         </state>
       </provider>
