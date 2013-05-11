@@ -7,6 +7,11 @@
     },
     "packages": [
         {
+            "name": "accounting",
+            "location": "packages/accounting",
+            "main": "accounting.js"
+        },
+        {
             "name": "async",
             "location": "packages/async",
             "main": "lib/async.js"
