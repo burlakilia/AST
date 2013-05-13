@@ -10,6 +10,7 @@ define(function (require, exports) {
     exports.create = function (container) {
         var region;
 
+
         function change(id){
 
             if (!region) {
@@ -37,6 +38,7 @@ define(function (require, exports) {
 
         bus
             .on('value:changed', change)
+            .reemit('value:changed', change)
             .on('region:changed', refresh)
             .reemit('region:changed', refresh);;
     };

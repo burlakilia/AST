@@ -4,7 +4,8 @@
 define(function (require) {
     "use strict";
 
-    var events = require('events'),
+    var config = require('config'),
+        events = require('events'),
         bus = new events.EventEmitter();
 
     bus.setMaxListeners(100);
@@ -16,7 +17,7 @@ define(function (require) {
         var args = Array.prototype.slice.call(arguments),
             type;
 
-        if (args[0] !== 'newListener') {
+        if (config.debug && args[0] !== 'newListener') {
 
             if (console && typeof console.log === 'function') {
                 console.log.apply(console, args);
