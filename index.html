@@ -47,7 +47,7 @@
         });
     </script>
 </head>
-<body class="step-2">
+<body class="step-1 compare-active">
 <div class="body-wrap container">
 <header>
     <div class="row">
@@ -245,6 +245,13 @@
 	<div class="compare-block">
 		<table>
 			<caption><h1>Сравнение программ страхования кварир в Москве и области</h1></caption>
+			<colgroup>
+				<col class="for-th" />
+				<col class="for-td" />
+				<col class="for-td" />
+				<col class="for-td" />
+				<col class="for-td" />
+			</colgroup>
 			<thead>
 				<tr>
 					<th class="first-th">
@@ -314,5 +321,19 @@
 		<a class="close-overlay" href="#" title="close">X</a>
 	</div>
 </div>
+<script type="text/javascript">
+	require(['jquery'], function(){
+		$(".compare-block table td").mouseover(function() {
+			var tds = $( this ).parent().find("td"),
+			index = $.inArray( this, tds );
+			$(".compare-block table td:nth-child("+( index + 2 )+")").css("background-color", "#eee");
+		}).mouseout(function() {
+					var tds = $( this ).parent().find("td"),
+					index = $.inArray( this, tds );
+					$(".compare-block table td:nth-child("+( index + 2 )+")").css("background-color", "transparent");
+				});
+	});
+</script>
+
 </body>
 </html>
