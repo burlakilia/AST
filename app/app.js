@@ -51,7 +51,10 @@ define([
             async.each($('[data-link]').toArray(), render, complete)
         });
 
-
     };
+
+    window.renderWidgets = function(container, done) {
+        async.each(container.find('[data-link]').toArray(), render, done);
+    }
 
 });

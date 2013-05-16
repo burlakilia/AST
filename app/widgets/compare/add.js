@@ -1,41 +1,35 @@
 define(function (require, exports) {
     "use strict";
 
-    require('mustache');
-
     var bus = require('bus'),
-        view = require('views/products'),
         model = require('models/products');
 
+    var current, region;
+
     exports.create = function (container) {
-        var region;
 
+        function refresh(res) {
+            region = res;
+        }
 
-        function change(id){
+        function change(id) {
+            current = id;
+        }
 
-            if (!region) {
-                return;
-            }
+        function onclick() {
 
-            model.select(id, region, function(err, products) {
+            model.select(current, region, function(err, product) {
 
                 if (err) {
                     return;
                 }
 
-                view
-                    .clear(container)
-                    .append(container, products);
-
+                bus.emit('compare:add', product[0]);
             });
 
         }
 
-        function refresh(data) {
-            region = data;
-
-            view.clear(container);
-        }
+        container.on('click', onclick);
 
         bus
             .on('value:changed', change)

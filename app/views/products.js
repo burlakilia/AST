@@ -3,7 +3,8 @@ define(function (require, exports) {
 
     require('mustache');
 
-    var accounting = require('accounting'),
+    var $ = require('jquery'),
+        accounting = require('accounting'),
         template = require('text!../../templates/products.html');
 
     function format(obj){
@@ -21,8 +22,11 @@ define(function (require, exports) {
     };
 
     exports.append = function (container, data) {
+        var html = $(Mustache.to_html(template, { products: data.map(format) }));
 
-        container.append(Mustache.to_html(template, { products: data.map(format) }));
+        window.renderWidgets(html, function() {
+            container.append(html);
+        });
 
         return exports;
     };
