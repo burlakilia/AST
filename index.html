@@ -47,7 +47,7 @@
         });
     </script>
 </head>
-<body class="step-1 compare-active">
+<body class="step-1">
 <div class="body-wrap container">
 <header>
     <div class="row">
@@ -242,7 +242,7 @@
 </div>
 <div class="compare-overlay">
 	<div class="overlay"> </div>
-	<div class="compare-block">
+	<div class="compare-block" data-link="widgets/compare/hover">
 		<table>
 			<caption><h1>Сравнение программ страхования кварир в Москве и области</h1></caption>
 			<colgroup>
@@ -257,18 +257,18 @@
 					<th class="first-th">
 						Сумма ущерба, <br/>руб.
 					</th>
-					<th>
+					<td>
 						<strong>ВТБ Страхование</strong> Премиум
-					</th>
-					<th>
+					</td>
+					<td>
 						<strong>ВТБ Страхование</strong> Премиум
-					</th>
-					<th>
+					</td>
+					<td>
 						<strong>ВТБ Страхование</strong> Премиум
-					</th>
-					<th>
+					</td>
+					<td>
 						<strong>ВТБ Страхование</strong> Премиум
-					</th>
+					</td>
 				</tr>
 			</thead>
 			<tbody>
@@ -321,19 +321,5 @@
 		<a class="close-overlay" href="#" title="close">X</a>
 	</div>
 </div>
-<script type="text/javascript">
-	require(['jquery'], function(){
-		$(".compare-block table td").mouseover(function() {
-			var tds = $( this ).parent().find("td"),
-			index = $.inArray( this, tds );
-			$(".compare-block table td:nth-child("+( index + 2 )+")").css("background-color", "#eee");
-		}).mouseout(function() {
-					var tds = $( this ).parent().find("td"),
-					index = $.inArray( this, tds );
-					$(".compare-block table td:nth-child("+( index + 2 )+")").css("background-color", "transparent");
-				});
-	});
-</script>
-
 </body>
 </html>

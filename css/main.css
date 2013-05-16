@@ -2111,6 +2111,14 @@ a .popover {
   padding: 0;
   border-collapse: collapse;
 }
+.compare-overlay .compare-block table td {
+  -webkit-transition: background-color 0.2s linear, color 0.2s linear;
+  -moz-transition: background-color 0.2s linear, color 0.2s linear;
+  -o-transition: background-color 0.2s linear, color 0.2s linear;
+  -ms-transition: background-color 0.2s linear, color 0.2s linear;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+.compare-overlay .compare-block table thead td,
 .compare-overlay .compare-block table thead th {
   background: #cbf1ff;
   font-weight: normal;
@@ -2120,12 +2128,14 @@ a .popover {
   height: 74px;
   vertical-align: top;
 }
+.compare-overlay .compare-block table thead td.first-th,
 .compare-overlay .compare-block table thead th.first-th {
   background: #f7f7f7;
   border-right: 1px solid #fff;
   text-align: left;
   color: #525252;
 }
+.compare-overlay .compare-block table thead td strong,
 .compare-overlay .compare-block table thead th strong {
   display: block;
 }
@@ -2193,7 +2203,6 @@ a .popover {
 .compare-overlay .compare-block table tfoot .buy-link:hover {
   -webkit-box-shadow: 0px 0px 2px 0px rgba(5, 150, 253, 0.6);
   box-shadow: 0px 0px 2px 0px rgba(5, 150, 253, 0.6);
-  background: #63d3ff;
 }
 html {
   height: 100%;
