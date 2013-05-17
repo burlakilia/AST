@@ -5,15 +5,7 @@ define(function (require, exports) {
 
     var $ = require('jquery'),
         accounting = require('accounting'),
-        template = require('text!../../templates/products.html');
-
-    function format(obj){
-
-        obj.totalcost = accounting.formatMoney(+obj.totalcost, "", 0, " ", " ");
-        obj.price.value = accounting.formatMoney(+obj.price.value, "", 0, " ", " ");
-
-        return obj;
-    }
+        template = require('text!../../templates/table.html');
 
     exports.clear = function(container) {
         container.empty();
@@ -22,7 +14,7 @@ define(function (require, exports) {
     };
 
     exports.append = function (container, data) {
-        var html = $(Mustache.to_html(template, { products: data.map(format), exists: data.length > 0  }));
+        var html = $(Mustache.to_html(template, { products: data, exists: data.length > 0  }));
 
         window.renderWidgets(html, function() {
             container.append(html);
