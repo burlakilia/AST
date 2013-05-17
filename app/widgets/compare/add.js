@@ -24,9 +24,10 @@ define(function (require, exports) {
                     return;
                 }
 
-                bus.emit('compare:add', product[0]);
+                bus.emit('compare:add', product[0], product.totalcost);
             });
 
+            return false;
         }
 
         container.on('click', onclick);
