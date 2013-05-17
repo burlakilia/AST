@@ -2,7 +2,7 @@ define(function (require, exports) {
     "use strict";
 
     var bus = require('bus'),
-        view =  require('views/compare');
+        table =  require('views/table');
 
     var list = [];
 
@@ -10,13 +10,13 @@ define(function (require, exports) {
 
         function render() {
 
-            view
+            table
                 .clear(container)
-                .append(container, list);
+                .append(container, list)
 
         }
 
-        function add(item) {
+        function add(item, totalcost) {
             var i, max;
 
             if (list.length > 3) {
@@ -31,14 +31,26 @@ define(function (require, exports) {
 
             }
 
-            list.push(item);
+            var options = {
+                'interior' :  $('select[data-args="interior"]').find(':selected').text(),
+                'movables' :  $('select[data-args="movables"]').find(':selected').text(),
+                'liability' :  $('select[data-args="liability"]').find(':selected').text()
+            };
+
+            list.push({
+                product: item,
+                totalcost: $('.total-summ.all').text().replace('р.',''),
+                options: options,
+                price: $('.total-summ.price').text().replace('р.','')
+            });
+
             render();
         }
 
         function remove(id) {
 
             function check(node) {
-                return node.id !== id
+                return node.product.id !== id
             }
 
             list = list.filter(check);
