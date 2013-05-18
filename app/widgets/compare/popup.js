@@ -15,7 +15,8 @@ define(function (require, exports) {
 
         container
             .on('click', '.compare-link a', open)
-            .on('click', '.close-overlay', close);
+            .on('click', '.close-overlay', close)
+			.on('click', '.overlay', close);
     };
 
 });

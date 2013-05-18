@@ -48,7 +48,7 @@
         });
     </script>
 </head>
-<body class="step-1" data-link="widgets/compare/popup">
+<body class="step-2">
 <div class="body-wrap container">
 <header>
     <div class="row">
@@ -126,68 +126,70 @@
     <div class="estate">
         <div class="row">
             <div  class="span12 main-header">
-                <h1>Страхование квартиры</h1>
-                <label for="region" ><input type="text" id="region"  data-link="widgets/locations" ></label>
+                <h1>Страхование квартиры Москва и область<!--todo вставить регион --></h1>
+				<h2>Вы выбрали продукт: <strong>ВТБ Страхование «Квартира экспресс», <br/>категория Премиум<!--todo вставить продукт --></strong></h2>
             </div>
         </div>
-        <nav class="row main-tabs">
-            <a class="span3 active" href="#" title="подобрать и сравнить">подобрать и сравнить</a>
-            <a class="span3" href="#" title="выбрать программу из списка">выбрать программу из списка</a>
-        </nav>
         <div class="row">
             <section class="span9">
                 <div class="main-content">
                     <p class="loss-dfn f-r">Cумма ущерба</p>
                     <p class="loss-dfn">Объект страхования</p>
-                    <form class="loss-table" data-link="widgets/options" >
+                    <div class="loss-table">
 
                         <div  class="loss-line odd">
-                            <span class="label">внутренняя отделка <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> и инженерное оборудование:</span>
-                            <span class="slider"><div class="widget" data-link="widgets/slider" data-args="interior"></div>
-                                <div class="ui-slider-min-count"></div>
-                                <div class="ui-slider-max-count"></div>
-                            </span>
-                            <span class="select"><select data-link="widgets/select" data-args="interior"></select><span class="currency-ico">р.</span></span>
+                            <span class="label">внутренняя отделка и инженерное оборудование</span>
+                            <span class="select"> 1 000 000<span class="currency-ico">р.</span></span>
                         </div>
                         <div class="loss-line">
-                            <span class="label">движимое домашнее <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> имущество:</span>
-                            <span class="slider"><div class="widget" data-link="widgets/slider"  data-args="movables"></div>
-                                <div class="ui-slider-min-count"></div>
-                                <div class="ui-slider-max-count"></div>
-                            </span>
-                            <span class="select"><select data-link="widgets/select"  data-args="movables"></select><span class="currency-ico">р.</span></span>
+                            <span class="label">движимое домашнее имущество</span>
+                            <span class="select">200 000<span class="currency-ico">р.</span></span>
                         </div>
                         <div class="loss-line odd">
-                            <span class="label">гражданская <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> ответственность:</span>
-                            <span class="slider"><div class="widget" data-link="widgets/slider"  data-args="liability" ></div>
-                                <div class="ui-slider-min-count"></div>
-                                <div class="ui-slider-max-count"></div>
-                            </span>
-                            <span class="select"><select data-link="widgets/select"  data-args="liability" ></select><span class="currency-ico">р.</span></span>
+                            <span class="label">гражданская ответственность</span>
+                            <span class="select">150 000<span class="currency-ico">р.</span></span>
                         </div>
-
-                    </form>
-					<div class="product-current" data-link="widgets/products">
-					</div>
-                    <div class="product-compare" data-link="widgets/compare/list">
                     </div>
+					<div class="product-current">
+						<p class="total clearfix"><span class="total-text">Итоговая страховая сумма </span><span class="total-summ all">1 350 000<span class="currency-ico">р.</span></span></p>
+						<p class="total clearfix"><span class="total-text">Стоимость полиса <small>стоимость полиса в  год </small></span><span class="total-summ price">6 500<span class="currency-ico">р.</span></span></p>
+						<div class="hr"> </div>
+					</div>
                 </div>
+				<form class="rules">
+					<h2 class="rules-title">Основные правила предоставления услуг страхования <br/>в процессинговой среде ACT электронный полис</h2>
+					<div class="row">
+						<div class="rules-span3">
+							<p>Покупка страховки означает, что непосредственно в рамках процессинговой среды, предоставляемой Handy Bank, вы сможете осуществить самостоятельно выбор и оплату программы страхования — вы сами решаете на какую сумму вы оцениваете стоимость вашего ремонта, домашнего имущества и ответственности</p>
+							<p>из предложенных вариантов, после оплаты dы получаете страховой полис в электронной форме являющийся полноценным страховым документом, который будет принят в качестве подтверждающего документа страховой компанией.</p>
+						</div>
+						<div class="rules-span3">
+							<p>Договор страхования вступает в силу на седьмой день после оплаты страхового полиса,вы имеете право расторгнуть договор в течении 6 дней, после совершения покупки, с полным возвратом потраченной суммы, для этоговам нужно обратиться  в Handy Bank.</p>
+							<p>После вступления договора в силу(на седьмой день), вы также вправе расторгнуть договор страхования, но при этом из суммы к возврату будут вычтены расходы на ведение дел, в этом случае вам будет нужно обратиться непосредственно в страховую компанию.</p>
+						</div>
+						<div class="rules-span3">
+							<p>Вы можете внести изменения и дополнения в полис страхования, это можно сделать в любом офисе страховой компании.</p>
+							<p>При заключении договора страхования вы не обязаны предъявлять документы, подтверждающие имущественные интересы, но вы обязаны это сделать при наступлении страхового случая.</p>
+						</div>
+					</div>
+					<label class="checkbox" data-link="widgets/checkbox" for="checkbox1" hidefocus="true"><input type="checkbox" id="checkbox1" />Я подтверждаю, что ознакомлен и согласен <br/>с правилами и условиями</label>
+					<label class="checkbox" data-link="widgets/checkbox" for="checkbox2" hidefocus="true"><input type="checkbox" id="checkbox2" />Я подтверждаю, что страхуемые объекты не находятся в многоквартирных деревянных домах; многоквартирных домах с деревянными перекрытиями; в домах, в которых идет/намечен на ближайший год капитальный ремонт</label>
+					<nav class="product-current-nav clearfix">
+						<a class="credit" href="/step3.html" title=">Перейти к оформлению и покупке">Перейти к оформлению <br/>страхового полиса</a>
+					</nav>
+				</form>
             </section>
             <aside class="span3 main-right">
+                <div class="docs">
+                    <h2>Возникли вопросы <br/>по приобретению электронного полиса страхования?</h2>
+                    <p>Стратегия позиционирования изменяет маркетинг, отвоевывая свою долю рынка. Узнаваемость марки, на первый взгляд, по-прежнему востребована.</p>
+					<p>Если у вас возникли вопросы по приобретению полиса страхования, ddвы можете получить консультацию по телефону +7 (916) 198-28-38 или по электронной почте online@ast-ins.ru</p>
+                </div>
                 <nav class="docs">
-                    <h2>Правила <br/>страхования <br/>квартиры</h2>
-                    <a href="#" title="Альянс">Альянс</a>
-                    <a href="#" title="Россгосстрах">Россгосстрах</a>
-                    <a href="#" title="ВТБ Страхование">ВТБ Страхование</a>
-                    <a href="#" title="ВСК">ВСК</a>
+                    <h2>Оферта</h2>
+                    <a href="#" title="Правила страхования (ВТБ Страхование)">Правила страхования (ВТБ&nbsp;Страхование)</a>
+                    <a href="#" title="Условия страхования (ВТБ Страхование)">Условия страхования (ВТБ&nbsp;Страхование)</a>
                 </nav>
-                <h1>Почему АСТ<br/> Электронный полис?</h1>
-                <ul class="teaser">
-                    <li>Выбор страховой компании</li>
-                    <li>Онлайн оформление за&nbsp;5&nbsp;минут</li>
-                    <li>Не требуется осмотр имущества</li>
-                    <li>Возмещение в&nbsp;течение <nobr>2-х</nobr> недель</li>
-                </ul>
             </aside>
         </div>
     </div>
