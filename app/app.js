@@ -10,7 +10,12 @@ define([
     'widgets/locations',
     'widgets/options',
     'widgets/products',
-    'widgets/popup'], function (exports, $, async, bus)  {
+    'widgets/popup',
+    'widgets/compare/add',
+    'widgets/compare/table',
+    'widgets/compare/popup',
+    'widgets/compare/remove',
+    'widgets/compare/list'], function (exports, $, async, bus)  {
 
     function trim(str) {
         return str.trim();

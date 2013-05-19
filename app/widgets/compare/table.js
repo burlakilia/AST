@@ -38,6 +38,7 @@ define(function (require, exports) {
             };
 
             list.push({
+                name: item.name,
                 product: item,
                 totalcost: $('.total-summ.all').text().replace('р.',''),
                 options: options,
