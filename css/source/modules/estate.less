@@ -94,6 +94,7 @@
 						overflow: hidden;
 						height: 30px;
 						line-height: 30px;
+						cursor: pointer;
 						.transition(background-color 0.25s linear);
 						ul,
 						li{
@@ -103,10 +104,9 @@
 						}
 						.select-data{
 							line-height: 30px;
-							width: 100px;
+							width: 99px;
 							font-size: 14px;
 							color: #fff;
-							cursor: pointer;
 							text-align: right;
 							position: absolute;
 							top:0;
@@ -132,9 +132,9 @@
 								}
 							}
 						}
+						&:hover,
 						&.open{
 							background: #1ab9f8;
-							overflow: visible;
 							z-index: 10000;
 							.select-data{
 								li{
@@ -144,6 +144,29 @@
 									}
 								}
 							}
+						}
+						&.open{
+							overflow: visible;
+						}
+						&:after{
+							content: ' ';
+							display: block;
+							position: absolute;
+							top:10px;
+							right:11px;
+							width: 8px;
+							height: 11px;
+							background: transparent url("/img/sprite.png")  -94px -104px no-repeat;
+						}
+						&:before{
+							content: ' ';
+							display: block;
+							position: absolute;
+							top:0;
+							right:30px;
+							width: 1px;
+							height: 30px;
+							border-right: 1px solid #fff;
 						}
 					}
 				}
