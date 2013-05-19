@@ -1631,10 +1631,15 @@ article {
   display: block;
   position: relative;
   width: 130px;
-  background: #1ab9f8;
+  background: #86d5f6;
   overflow: hidden;
   height: 30px;
   line-height: 30px;
+  -webkit-transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;
+  -o-transition: background-color 0.25s linear;
+  -ms-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
 }
 .estate .main-content .loss-table .loss-line .select .select-container ul,
 .estate .main-content .loss-table .loss-line .select .select-container li {
@@ -1647,10 +1652,48 @@ article {
   width: 100px;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: top 0.25s linear;
+  -moz-transition: top 0.25s linear;
+  -o-transition: top 0.25s linear;
+  -ms-transition: top 0.25s linear;
+  transition: top 0.25s linear;
 }
 .estate .main-content .loss-table .loss-line .select .select-container .select-data li {
   height: 30px;
   padding: 0 18px 0 20px;
+  background: #86d5f6;
+  -webkit-transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;
+  -o-transition: background-color 0.25s linear;
+  -ms-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+  position: relative;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data li.active:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 6px;
+  width: 10px;
+  height: 8px;
+  background: transparent url("/img/sprite.png") -83px -104px no-repeat;
+}
+.estate .main-content .loss-table .loss-line .select .select-container.open {
+  background: #1ab9f8;
+  overflow: visible;
+  z-index: 10000;
+}
+.estate .main-content .loss-table .loss-line .select .select-container.open .select-data li {
+  background: #61d3ff;
+}
+.estate .main-content .loss-table .loss-line .select .select-container.open .select-data li.active {
+  background: #3dc6fb;
 }
 .estate .main-content .loss-table .loss-line .slider {
   right: 187px;
