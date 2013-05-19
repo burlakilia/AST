@@ -45,11 +45,18 @@ define(function (require, exports) {
             render();
         }
 
+        function refresh() {
+            view.clear(container);
+            list = [];
+        }
+
         bus
             .on('compare:add', add)
             .reemit('compare:add', add)
             .on('compare:remove', remove)
             .reemit('compare:remove', remove);
+
+        bus.on('region:changed', refresh);
     };
 
 });
