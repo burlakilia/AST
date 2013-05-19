@@ -14,7 +14,7 @@ define(function (require, exports) {
         require(['json!' + config.locations.url], function (data) {
 
             function onselect(e, data) {
-                bus.emit('region:changed', data.item.id);
+                bus.emit('region:changed', data.item.id,  data.item.label);
             }
 
             function render( ul, item ) {
@@ -33,7 +33,7 @@ define(function (require, exports) {
 
                 }
 
-                bus.emit('region:changed', data[i].id);
+                bus.emit('region:changed', data[i].id, data[i].label);
             }
 
             bus

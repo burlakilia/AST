@@ -34,8 +34,8 @@ define(function (require, exports) {
         return exports;
     };
 
-    exports.append = function (container, data) {
-        var html = $(Mustache.to_html(template, { products: data, exists: data.length > 0  }));
+    exports.append = function (container, data, location) {
+        var html = $(Mustache.to_html(template, { products: data, exists: data.length > 0, location: location  }));
 		html = hover(html);
         window.renderWidgets(html, function() {
             container.append(html);

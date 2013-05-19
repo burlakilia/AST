@@ -6,9 +6,10 @@ define(function (require, exports) {
         model = require('models/options');
 
     exports.create = function (container, id) {
-        var opened = false;
+        var opened = false, handler;
 
         function refresh(region) {
+            var old = container.val();
 
             model.select(id, region, function(err, data){
 
@@ -22,7 +23,16 @@ define(function (require, exports) {
                 container.trigger('update',  [ data[0].id ]);
             });
 
+            old && reuse(old);
             container.toggleClass('loading', false);
+        }
+
+        function reuse(v) {
+            handler && clearTimeout(handler);
+
+            handler = setTimeout(function() {
+                container.val(v).trigger('change');
+            }, 200)
         }
 
         function update(id) {

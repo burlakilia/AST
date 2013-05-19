@@ -4,7 +4,7 @@ define(function (require, exports) {
     var bus = require('bus'),
         table =  require('views/table');
 
-    var list = [];
+    var list = [], location, region;
 
     exports.create = function (container) {
 
@@ -12,11 +12,11 @@ define(function (require, exports) {
 
             table
                 .clear(container)
-                .append(container, list)
+                .append(container, list, location);
 
         }
 
-        function add(item, totalcost) {
+        function add(item) {
             var i, max;
 
             if (list.length > 3) {
@@ -58,11 +58,23 @@ define(function (require, exports) {
             render();
         }
 
+        function refresh(id, name) {
+            region = id;
+            location = name;
+            list = [];
+
+            table.clear(container)
+        }
+
         bus
             .on('compare:add', add)
             .reemit('compare:add', add)
             .on('compare:remove', remove)
             .reemit('compare:remove', remove);
+
+        bus
+            .on('region:changed', refresh)
+            .reemit('region:changed', refresh);
     };
 
 });
