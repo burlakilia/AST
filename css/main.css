@@ -1627,6 +1627,31 @@ article {
   border: none;
   text-align: center;
 }
+.estate .main-content .loss-table .loss-line .select .select-container {
+  display: block;
+  position: relative;
+  width: 130px;
+  background: #1ab9f8;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+}
+.estate .main-content .loss-table .loss-line .select .select-container ul,
+.estate .main-content .loss-table .loss-line .select .select-container li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data {
+  line-height: 30px;
+  width: 100px;
+  font-size: 14px;
+  color: #fff;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data li {
+  height: 30px;
+  padding: 0 18px 0 20px;
+}
 .estate .main-content .loss-table .loss-line .slider {
   right: 187px;
   width: 326px;
