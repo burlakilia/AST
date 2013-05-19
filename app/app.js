@@ -2,20 +2,7 @@ define([
     'exports',
     'jquery',
     'async',
-    'bus',
-    'models/options',
-    'models/products',
-    'widgets/select',
-    'widgets/slider',
-    'widgets/locations',
-    'widgets/options',
-    'widgets/products',
-    'widgets/popup',
-    'widgets/compare/add',
-    'widgets/compare/table',
-    'widgets/compare/popup',
-    'widgets/compare/remove',
-    'widgets/compare/list'], function (exports, $, async, bus)  {
+    'bus'], function (exports, $, async, bus)  {
 
     function trim(str) {
         return str.trim();
