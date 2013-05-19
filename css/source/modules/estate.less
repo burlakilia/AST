@@ -75,17 +75,6 @@
 				}
 				.select{
 					padding: 8px 0 0 14px;
-					select{
-						width: 130px;
-						padding: 0 0 0 20px;
-						height: 30px;
-						line-height: 30px;
-						background: #86d5f6;
-						color: #fff;
-						font-weight: bold;
-						border: none;
-						text-align: center;
-					}
 					.select-container{
 						display: block;
 						position: relative;
@@ -96,6 +85,12 @@
 						line-height: 30px;
 						cursor: pointer;
 						.transition(background-color 0.25s linear);
+						.after{
+							display: none;
+						}
+						.before{
+							display: none;
+						}
 						ul,
 						li{
 							list-style-type: none;
@@ -129,6 +124,9 @@
 										height: 8px;
 										background: transparent url("/img/sprite.png")  -83px -104px no-repeat;
 									}
+								}
+								.before2{
+									display: none;
 								}
 							}
 						}

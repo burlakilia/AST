@@ -185,10 +185,6 @@
   position: absolute;
   left: -1000px;
 }
-.estate .main-content .loss-table .loss-line .select .select-container {
-  *z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=after></div>'));
-  *zoom: expression(runtimeStyle.zoom = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'));
-}
 .estate .main-content .loss-table .loss-line .select .select-container .after {
   display: block;
   position: absolute;
@@ -206,9 +202,6 @@
   width: 1px;
   height: 30px;
   border-right: 1px solid #fff;
-}
-.estate .main-content .loss-table .loss-line .select .select-container .select-data li.active {
-  *z-index: expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before2></div>'));
 }
 .estate .main-content .loss-table .loss-line .select .select-container .select-data li.active .before2 {
   display: block;

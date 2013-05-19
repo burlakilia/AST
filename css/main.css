@@ -1616,17 +1616,6 @@ article {
 .estate .main-content .loss-table .loss-line .select {
   padding: 8px 0 0 14px;
 }
-.estate .main-content .loss-table .loss-line .select select {
-  width: 130px;
-  padding: 0 0 0 20px;
-  height: 30px;
-  line-height: 30px;
-  background: #86d5f6;
-  color: #fff;
-  font-weight: bold;
-  border: none;
-  text-align: center;
-}
 .estate .main-content .loss-table .loss-line .select .select-container {
   display: block;
   position: relative;
@@ -1641,6 +1630,12 @@ article {
   -o-transition: background-color 0.25s linear;
   -ms-transition: background-color 0.25s linear;
   transition: background-color 0.25s linear;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .after {
+  display: none;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .before {
+  display: none;
 }
 .estate .main-content .loss-table .loss-line .select .select-container ul,
 .estate .main-content .loss-table .loss-line .select .select-container li {
@@ -1683,6 +1678,9 @@ article {
   width: 10px;
   height: 8px;
   background: transparent url("/img/sprite.png") -83px -104px no-repeat;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data li .before2 {
+  display: none;
 }
 .estate .main-content .loss-table .loss-line .select .select-container:hover,
 .estate .main-content .loss-table .loss-line .select .select-container.open {
