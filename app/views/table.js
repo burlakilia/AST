@@ -14,7 +14,7 @@ define(function (require, exports) {
 					index = $.inArray( this, tds );
 				container.find("td:nth-child("+( index + 2 )+")").css("background-color", "#eee");
 				container.find(".thead td:nth-child("+( index + 2 )+")").css("background-color", "#bde1ee");
-				container.find(".first-tf td:nth-child("+( index + 2 )+")").css("color", "#00b5ff");
+				container.find(".first-tf td:nth-child("+( index + 2 )+")").css("color", "#00b5ff").css("text-shadow", "0px 0px 1px #00b5ff");
 				container.find(".tfoot td:nth-child("+( index + 2 )+") .buy-link").css("background-color", "#00b8fb");
 			})
 			.mouseout(function() {
@@ -22,7 +22,7 @@ define(function (require, exports) {
 					index = $.inArray( this, tds );
 				container.find("td:nth-child("+( index + 2 )+")").css("background-color", "transparent");
 				container.find(".thead td:nth-child("+( index + 2 )+")").css("background-color", "#cbf1ff");
-				container.find(".first-tf td:nth-child("+( index + 2 )+")").css("color", "#333");
+				container.find(".first-tf td:nth-child("+( index + 2 )+")").css("color", "#333").css("text-shadow", "0px 0px 1px #333");
 				container.find(".tfoot td:nth-child("+( index + 2 )+") .buy-link").css("background-color", "#7bd9ff");
 			});
 		return container;

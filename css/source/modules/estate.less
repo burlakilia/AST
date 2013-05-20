@@ -14,6 +14,7 @@
 			text-transform: uppercase;
 			font-weight: bold;
 			font-size: 13px;
+			font-family: 'Proxima N W10 Bold', Helvetica, Arial, sans-serif;
 			.transition(all 0.25s linear);
 			&.active{
 				background-color: #83d5f8;
@@ -60,6 +61,7 @@
 					display: block;
 					min-height: 60px;
 					color: #333;
+					font-family: 'Proxima N W10 Smbd', 'Myriad Pro', Helvetica, Arial, sans-serif;
 					font-weight: bold;
 					vertical-align: middle;
 				}
@@ -72,6 +74,8 @@
 					right:0;
 					height: 60px;
 					width: 173px;
+					font-family: 'DIN Next W02 Regular', Arial, sans-serif;
+					text-shadow: 0px 0px 1px #fff;
 				}
 				.select{
 					padding: 8px 0 0 14px;
@@ -109,7 +113,7 @@
 							.transition(top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000));
 							li{
 								height: 30px;
-								padding: 0 18px 0 20px;
+								padding: 0 18px 0 0;
 								background: #86d5f6;
 								.transition(background-color 0.25s linear);
 								position: relative;
@@ -317,6 +321,7 @@
 							font-weight: bold;
 							text-transform: uppercase;
 							font-size: 13px;
+							font-family: 'Proxima N W10 Bold', Helvetica, Arial, sans-serif;
 							.transition(all 0.25s linear);
 							&:hover{
 								.box-shadow(0px 0px 2px 0px rgba(5,150,253,0.60));
@@ -331,7 +336,7 @@
 							left:0;
 							font-size: 12px;
 							line-height: 14px;
-							color: #00b3ff;
+							color: #4dccff;
 						}
 						&.disable{
 							a{
@@ -350,6 +355,9 @@
 			}
 		}
 	}
+	.product-current{
+		font-family: 'DIN Next W02 Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+	}
 	.product-wrap{
 		margin-top: 50px;
 		border-top: 1px solid #d6d6d6;
@@ -366,8 +374,10 @@
 	}
 	.product-current-nav{
 		margin:0 0 60px 0;
+		font-family: 'Proxima N W10 Smbd', 'Myriad Pro', Helvetica, Arial, sans-serif;
 		a{
 			display: block;
+			color: #4dccff;
 			background-color: #e5f7ff;
 			border-left:1px solid #f2fbff;
 			border-right:1px solid #f2fbff;

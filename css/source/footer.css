@@ -44,6 +44,9 @@
   padding: 0 0 10px 0;
   display: block;
 }
+.footer-cols .col-2 p {
+  margin: 0 0 4px;
+}
 .footer-cols .tel {
   display: block;
   font-size: 30px;
