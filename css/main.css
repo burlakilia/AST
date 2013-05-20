@@ -1652,11 +1652,11 @@ article {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: top 0.25s linear;
-  -moz-transition: top 0.25s linear;
-  -o-transition: top 0.25s linear;
-  -ms-transition: top 0.25s linear;
-  transition: top 0.25s linear;
+  -webkit-transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -moz-transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -ms-transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .estate .main-content .loss-table .loss-line .select .select-container .select-data li {
   height: 30px;
