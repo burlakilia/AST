@@ -3,6 +3,7 @@ define(function (require, exports) {
 
     require('mustache');
     require('jquery-ui');
+    require('jquery-touch');
 
     var bus = require('bus'),
         model = require('models/options');
@@ -47,7 +48,7 @@ define(function (require, exports) {
         function label() {
 
             setTimeout(function() {
-                var val = container.parent().parent().find('select option:selected').text();
+                var val = container.parent().parent().find('.select .item.active').text();
 
                 container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
             }, 0);
@@ -93,6 +94,8 @@ define(function (require, exports) {
         container
             .on('slidestop', onchange)
             .slider();
+
+        container.draggable();
 
         container.on('update', label);
     };

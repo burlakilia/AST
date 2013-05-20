@@ -10,7 +10,7 @@ define(function (require, exports) {
         var opened = false, handler;
 
         function refresh(region) {
-            var old = container.val();
+            var old = container.find('li.active').attr('data-value');
 
             model.select(id, region, function(err, data){
 
@@ -32,7 +32,8 @@ define(function (require, exports) {
             handler && clearTimeout(handler);
 
             handler = setTimeout(function() {
-                container.val(v).trigger('change');
+                update(v);
+                container.trigger('update', [ v ]);
             }, 200)
         }
 
@@ -50,7 +51,10 @@ define(function (require, exports) {
 
             select(node);
 
-            node.attr('data-value') && container.trigger('update', [ node.attr('data-value') ]);
+            if (opened) {
+                node.attr('data-value') && container.trigger('update', [ node.attr('data-value') ]);
+            }
+
         }
 
         function select(node) {
@@ -86,6 +90,12 @@ define(function (require, exports) {
             .reemit('region:changed', refresh);
 
         $(document).click(check);
+
+        document.addEventListener('touchend', function(e) {
+            e.preventDefault();
+            var touch = e.touches[0];
+            console.log(touch.pageX + " - " + touch.pageY, e);
+        }, false);
 
         container.on('click', '.item', onclick);
     };
