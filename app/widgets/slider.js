@@ -93,8 +93,9 @@ define(function (require, exports) {
 
         container
             .on('slidestop', onchange)
-            .slider()
-            .draggable();
+            .slider();
+
+        container.draggable();
 
         container.on('update', label);
     };
